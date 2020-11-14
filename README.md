@@ -1,0 +1,1 @@
+# Esercitazioni_Strutture_per_veicoli_aerospaziali

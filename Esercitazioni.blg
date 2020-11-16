@@ -1,15 +1,15 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'Esercitazioni.blg'
-[46] biber:330> INFO - === Mon Nov 16, 2020, 18:00:48
-[54] Biber.pm:415> INFO - Reading 'Esercitazioni.bcf'
-[95] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
-[103] Biber.pm:4334> INFO - Processing section 0
-[109] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[110] bibtex.pm:1682> INFO - LaTeX decoding ...
-[118] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
-[125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[125] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[125] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[126] bbl.pm:651> INFO - Writing 'Esercitazioni.bbl' with encoding 'UTF-8'
-[127] bbl.pm:754> INFO - Output to Esercitazioni.bbl
+[47] biber:330> INFO - === Mon Nov 16, 2020, 20:47:13
+[56] Biber.pm:415> INFO - Reading 'Esercitazioni.bcf'
+[99] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[108] Biber.pm:4334> INFO - Processing section 0
+[114] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[115] bibtex.pm:1682> INFO - LaTeX decoding ...
+[123] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[136] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[136] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[136] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[136] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[138] bbl.pm:651> INFO - Writing 'Esercitazioni.bbl' with encoding 'UTF-8'
+[139] bbl.pm:754> INFO - Output to Esercitazioni.bbl

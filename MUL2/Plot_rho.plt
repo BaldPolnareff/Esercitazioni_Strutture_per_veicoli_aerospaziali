@@ -8,7 +8,7 @@ set notitle
 set xrange [0:.45]
 
 set xlabel 't (s)'
-set ylabel 'rho (kg/m³)'
+set ylabel 'rho (kg/m^3)'
 
 #set pointsize 0.8
 

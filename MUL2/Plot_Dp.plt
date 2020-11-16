@@ -1,5 +1,5 @@
 reset
-set terminal windows enhanced 
+set terminal epscairo 
 set size 1,1
 set key t r
 set notitle

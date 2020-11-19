@@ -5,6 +5,7 @@
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage[]{amsmath}
+\usepackage{gensymb}
 \addbibresource{bibliography.bib}
 \author{De Trane Giorgio\\s275514}
 \title{\textbf{Esercitazioni Strutture\\per Veicoli Spaziali}}
@@ -24,25 +25,49 @@
     oltre a degli utili script di esempio per \textit{gnuplot} \autocite*{gnuplot}, un libre software utilizzato poi per plottare tutti i grafici che seguono.
     \\
     \linebreak 
+    In campo subsonico, con ripressurizzazione
+    nulla e temperatura dell'aria di circa 23 °C, vale:
+        \\ 
+        \begin{equation}
+            \tau = 3.5 \cdot  10^{-3}\left ( \frac{V_c}{A_{eff}} \right )
+        \end{equation}
+        \\ 
+        In campo sonico, con ripressurizzazione nulla e temperatura
+        dell'aria di circa\linebreak 23 °C, vale:
+        \\ 
+        \begin{equation}
+            \Omega \approx 0.025\left ( \frac{V_c}{A_{eff}} \right )\left [ (0.5283{\tilde{p}}^{o})^{\frac{1}{7}} - 1 \right ]
+        \end{equation} 
+        \\ 
+
     Sono state fatte diverse assunzioni per tutta 
     l'esercitazione:
     \begin{itemize}
-        \item La depressurizzazione é \textit{lenta} 
-        ($\displaystyle t > 10\, s$ \ )
+        \item La depressurizzazione é:
+            \begin{itemize}
+                \item \textit{lenta} 
+                        ($\displaystyle t > 10\, s$ \ ) 
+                \item \textit{rapida} 
+                        ($\displaystyle t < 10\, s$ \ )
+                \item \textit{esplosiva} 
+                        ($\displaystyle t < 500\, ms$ \ )
+            \end{itemize}
         \item Il volume delle camere é \textit{costante}
         \item Il volume dell'atmosfera é supposto \textit{infinito}
         \item L'aria é trattata come \textit{gas ideale}
-        \item Si utilizza un modello 0D, ossia con
+        \item Si utilizza un modello \textit{0D}, ossia con
               proprietá uniformi per tutta l'aria contenuta nel volume in analisi
         \item La quota rimane \textit{costante} durante la depressurizzazione
         \item L'effetto dell'umiditá relativa e dei calori latenti vengono trascurati
         \item Il modello utilizzato é di tipo quasi-stazionario, implementato attraverso un 
-              \textit{algoritmo numerico}
+              \textit{algoritmo numerico}, il cui output fornisce 
+              del feedback sugli input forniti e sulla criticitá (campo sonico) o subcriticitá (campo subsonico)
+              del fenomeno.
 
     \end{itemize}
 
     \begin{center}
-        \includegraphics[width=0.75\textwidth]{MUL2_feedback.png}\\
+        \includegraphics[width=\textwidth]{MUL2_feedback.png}\\
         \textit{Fig1: stdout dello script}
     \end{center}
     
@@ -64,11 +89,11 @@
 
         \textbf{\textit{DATI}}
         \begin{itemize}
-            \item $\displaystyle T_0 = -10\,C;$ \
-            \item $\displaystyle T_{c0} = 23\,C;$ \
+            \item $\displaystyle T_0 = -10\,°C;$ \
+            \item $\displaystyle T_{c0} = 23\,°C;$ \
             \item $\displaystyle p_0 = 62.8812\,kPa;$ \
             \item $\displaystyle p_{c0} = 117.0162\,kPa;$ \
-            \item $\displaystyle V_{c1} = 4\,m^3;$ \
+            \item $\displaystyle V_{C1} = 4\,m^3;$ \
             \item $\displaystyle V_{C2} = 16\,m^3;$ \
             \item $\displaystyle A_{1-0} = 0.2\,m^2;$ \
             \item $\displaystyle A_{1-2} = 0.5\,m^2;$ \
@@ -88,6 +113,38 @@
             \textit{Fig4: Gradiente di pressione tra le due camere}
         \end{center}
 
+        \pagebreak
+        \subsection{Esercizio 1}
+
+        \begin{center}
+            \includegraphics[width=0.65\textwidth]{ES1_Esercizio1.eps}\\ 
+            \textit{Fig.5: Esercizio 1}\\ 
+        \end{center}
+        \textbf{DATI}
+        \begin{itemize}
+            \item $\displaystyle T_0 = -49.85\,°C;$ \
+            \item $\displaystyle T_{c0} = 23\,°C;$ \
+            \item $\displaystyle p_0 = 26.5\,kPa;$ \
+            \item $\displaystyle p_{c0} = 89.876\,kPa;$ \
+            \item $\displaystyle V_{C1} = 4\,m^3;$ \
+            \item $\displaystyle V_{C2} = 3\,m^3;$ \
+            \item $\displaystyle V_{C3} = 198\,m^3;$ \
+            \item $\displaystyle V_{C4} = 67\,m^3;$ \
+            \item $\displaystyle A_{1-0} = 1\,m^2;$ \
+            \item $\displaystyle A_{1-2} = 0.6\,m^2;$ \
+            \item $\displaystyle A_{2-3} = 0.6\,m^2;$ \
+            \item $\displaystyle A_{1-4} = 0.8\,m^2;$ \
+            \item $\displaystyle A_{3-4} = 0.8\,m^2;$ \
+            \item $\displaystyle CD_{1-0} = 0.8;$ \
+            \item $\displaystyle CD_{1-2} = [0, 0.5, 1];$ \
+            \item $\displaystyle CD_{2-3} = 0.7;$ \
+            \item $\displaystyle CD_{2-4} = 0.7;$ \
+            \item $\displaystyle CD_{1-4} = 0.7;$ \
+            \item $\displaystyle CD_{3-4} = 0.7;$ \
+        \end{itemize}
+        \pagebreak
+        \textbf{RISULTATI}
+        
         \pagebreak
         \printbibliography
 \end{document}

@@ -120,6 +120,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux
 OUTPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux
@@ -190,6 +192,7 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2_feedback.png
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2_feedback.png
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2_feedback.png
@@ -203,7 +206,6 @@ INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio2-eps-converted-to.pdf
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio2-eps-converted-to.pdf
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio2-eps-converted-to.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p.eps
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p.eps
@@ -223,6 +225,15 @@ INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp.eps
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp-eps-converted-to.pdf
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp-eps-converted-to.pdf
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp-eps-converted-to.pdf
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1.eps
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1.eps
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1.eps
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1.eps
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf
+INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out
 INPUT /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out
@@ -232,10 +243,12 @@ INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb

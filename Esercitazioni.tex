@@ -6,6 +6,7 @@
 \usepackage{siunitx}
 \usepackage[]{amsmath}
 \usepackage{gensymb}
+\usepackage{mathtools}
 \addbibresource{bibliography.bib}
 \author{De Trane Giorgio\\s275514}
 \title{\textbf{Esercitazioni Strutture\\per Veicoli Spaziali}}
@@ -61,7 +62,7 @@
         \item L'effetto dell'umiditá relativa e dei calori latenti vengono trascurati
         \item Il modello utilizzato é di tipo quasi-stazionario, implementato attraverso un 
               \textit{algoritmo numerico}, il cui output fornisce 
-              del feedback sugli input forniti e sulla criticitá (campo sonico) o subcriticitá (campo subsonico)
+              del feedback sugli input forniti e sulla supercriticitá (campo supersonico) o subcriticitá (campo subsonico)
               del fenomeno.
 
     \end{itemize}
@@ -87,7 +88,7 @@
             \textit{Fig2: Esempio2}
         \end{center}
 
-        \textbf{\textit{DATI}}
+        \subsubsection{DATI}
         \begin{itemize}
             \item $\displaystyle T_0 = -10\,°C;$ \
             \item $\displaystyle T_{c0} = 23\,°C;$ \
@@ -102,25 +103,25 @@
         \end{itemize}
         \pagebreak
 
-        \textbf{RISULTATI}
-        \\ \\
+        \subsubsection{RISULTATI}
+        
         Sono riportati i grafici ottenuti plottando i file di output
         generati dallo script.
         \begin{center}
             \includegraphics[width=0.65\textwidth, angle=-90]{MUL2/p.eps}\\
             \textit{Fig.3: Pressioni di entrambe le camere nel tempo}
             \includegraphics[width=0.65\textwidth, angle=-90]{MUL2/Dp.eps}\\
-            \textit{Fig4: Gradiente di pressione tra le due camere}
+            \textit{Fig.4: Gradiente di pressione tra le due camere}
         \end{center}
 
         \pagebreak
         \subsection{Esercizio 1}
 
         \begin{center}
-            \includegraphics[width=0.65\textwidth]{ES1_Esercizio1.eps}\\ 
+            \includegraphics[width=0.6\textwidth]{ES1_Esercizio1.eps}\\ 
             \textit{Fig.5: Esercizio 1}\\ 
         \end{center}
-        \textbf{DATI}
+        \subsubsection{DATI}
         \begin{itemize}
             \item $\displaystyle T_0 = -49.85\,°C;$ \
             \item $\displaystyle T_{c0} = 23\,°C;$ \
@@ -143,8 +144,80 @@
             \item $\displaystyle CD_{3-4} = 0.7;$ \
         \end{itemize}
         \pagebreak
-        \textbf{RISULTATI}
+        \subsubsection{File di input}
+
+        Il file di input viene modificato rispetto all'esempio, 
+        inserendo ovviamente i dati forniti dal problema e rispettando la leggenda
+        dello script.\\ 
+        In particolare, la matrice delle aree utili, ossia le singole aree effettive tra i volumi, moltiplicate
+        per i rispettivi coefficienti, risulta: \\
+        \begin{center}  
+            \[
+            \begin{pmatrix}
+                0    & 0    & 0        & 0.56 & 0.8\\ 
+                0    & 0    & 0.42     & 0.56 & 0\\ 
+                0    & 0.42 & 0        & 0.56 & 0\\ 
+                0.56 & 0.56 & 0.56     & 0    & 0\\
+                0.8  & 0    & 0        & 0    & 0 
+            \end{pmatrix}
+            \]
+            \\ 
+            Per $\ CD_{1-2} = 0;$ \
+            \\ 
+            \[
+            \begin{pmatrix}
+                0    & 0.3  & 0        & 0.56 & 0.8\\ 
+                0.3  & 0    & 0.42     & 0.56 & 0\\ 
+                0    & 0.42 & 0        & 0.56 & 0\\ 
+                0.56 & 0.56 & 0.56     & 0    & 0\\
+                0.8  & 0    & 0        & 0    & 0 
+            \end{pmatrix}
+            \]
+            \\ 
+            Per $\ CD_{1-2} = 0.5;$ \
+            \\ 
+            \[
+            \begin{pmatrix}
+                0    & 0.6  & 0        & 0.56 & 0.8\\ 
+                0.6  & 0    & 0.42     & 0.56 & 0\\ 
+                0    & 0.42 & 0        & 0.56 & 0\\ 
+                0.56 & 0.56 & 0.56     & 0    & 0\\
+                0.8  & 0    & 0        & 0    & 0 
+            \end{pmatrix}
+            \]
+            \\ 
+            Per $\ CD_{1-2} = 1;$ \
+        \end{center}    
+        \pagebreak
+
+        \subsubsection{RISULTATI}
+        Sono di seguito plottati gli andamenti delle pressioni e del 
+        gradiente di pressione tra le camere 1 e 2, nel dominio del tempo. \\ 
+        I plot sono ordinati a due a due per $\ CD_{1-2} = [0, 0.5, 1];$ \
+
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_0.eps}\\ 
+            \textit{Fig.6: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_0.eps}\\ 
+            \textit{Fig.7: Andamento del gradiente di pressione}\\
+        \end{center}
+        \pagebreak
         
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_0.5.eps}\\ 
+            \textit{Fig.8: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_0.5.eps}\\
+            \textit{Fig.9: Andamento del gradiente di pressione}\\
+        \end{center}
+        \pagebreak
+
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_1.eps}\\ 
+            \textit{Fig.10: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_1.eps}\\
+            \textit{Fig.11: Andamento del gradiente di pressione}\\
+        \end{center}
+
         \pagebreak
         \printbibliography
 \end{document}

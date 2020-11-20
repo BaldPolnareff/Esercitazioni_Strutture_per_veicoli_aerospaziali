@@ -115,7 +115,7 @@
         \end{center}
 
         \pagebreak
-        \subsection{Esercizio 1}
+        \subsection{Esercizio 1\label{Es1}} 
 
         \begin{center}
             \includegraphics[width=0.6\textwidth]{ES1_Esercizio1.eps}\\ 
@@ -216,6 +216,60 @@
             \textit{Fig.10: Andamento delle pressioni} \\ 
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_1.eps}\\
             \textit{Fig.11: Andamento del gradiente di pressione}\\
+        \end{center}
+        \pagebreak
+
+        \subsection{Esercizio 2}
+
+        Viene presa in analisi la depressurizzazione dell'\textit{UPM-Sat1} 
+        \autocite*{UPM_sat1}, in un tempo di 225 s. \\ 
+        L'analisi é svolta assumendo un \textit{coefficiente di efflusso} unitario,
+        rispettando inoltre il modello fornito di depressurizzazione della camera esterna: la pressione
+        inizialmente ha un determinato valore, che non puó piú essere considerato costante come nei casi precedenti, ma avrá un andamento 
+        esponenziale del tipo: \\
+        \begin{equation}
+            \frac{p_e}{p_i} = e^{-\left ({\frac{t}{t_p}}  \right )^2}
+        \end{equation}
+        \\ 
+        Dove $t_p$ é un tempo caratteristico, pari a 0.75 s in questo caso.
+        \\ 
+        \linebreak
+        Infatti, mentre il volume esterno era assunto infinito per l'Esercizio 1 (\ref{Es1}), va chiaramente considerato
+        finito in questo caso, con la conseguenza che la pressione diminuisce.
+        \\ 
+        \linebreak
+        Il volume dell'unica camera considerata é pari a $0.13 \ m^3$, mentre 
+        l'area che la separa dall'esterno é presa in tre valori test differenti, ossia:
+        \[24 \cdot \begin{bmatrix}
+            10^{-5}\ m^2\ & 10^{-6}\ m^2\ & 10^{-7} \ m^2\
+            \end{bmatrix}\]
+        \linebreak
+        Anche in questo caso, sempre tramite lo script in Fortran fornito a lezione, 
+        vengono calcolate le pressioni nel tempo e il gradiente di pressione $\Delta p$ agente sulle pareti
+        del satellite, plottando poi il tutto con \textit{gnuplot}.\\ 
+        I plot sono ordinati a due a due, per ogni area considerata.
+        \pagebreak
+        
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_5.eps}\\ 
+            \textit{Fig.12: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_5.eps}\\
+            \textit{Fig.13: Andamento del gradiente di pressione}\\
+        \end{center}
+        \pagebreak
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_6.eps}\\ 
+            \textit{Fig.14: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_6.eps}\\
+            \textit{Fig.15: Andamento del gradiente di pressione}\\
+        \end{center}
+        \pagebreak
+
+        \begin{center}
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_7.eps}\\ 
+            \textit{Fig.16: Andamento delle pressioni} \\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_7.eps}\\
+            \textit{Fig.17: Andamento del gradiente di pressione}\\
         \end{center}
 
         \pagebreak

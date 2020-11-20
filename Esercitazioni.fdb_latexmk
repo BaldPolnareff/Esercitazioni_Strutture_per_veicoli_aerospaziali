@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber Esercitazioni"] 1605897584 "Esercitazioni.bcf" "Esercitazioni.bbl" "Esercitazioni" 1605898417
-  "Esercitazioni.bcf" 1605898384 101678 8fe9f9f99144af2cfc072a7c0a4bae5b "pdflatex"
+["biber Esercitazioni"] 1605897584 "Esercitazioni.bcf" "Esercitazioni.bbl" "Esercitazioni" 1605899096
+  "Esercitazioni.bcf" 1605899095 101678 8fe9f9f99144af2cfc072a7c0a4bae5b "pdflatex"
   "bibliography.bib" 1605545936 4599 0813ad5740ff15f1cbdfdb92f6d65190 ""
   (generated)
   "Esercitazioni.blg"
   "Esercitazioni.bbl"
-["pdflatex"] 1605898383 "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.tex" "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf" "Esercitazioni" 1605898417
+["pdflatex"] 1605899095 "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.tex" "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf" "Esercitazioni" 1605899096
   "/etc/texmf/web2c/texmf.cnf" 1603623534 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux" 1605898384 2302 b419b557c717e6961368395d47dea58d ""
-  "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.tex" 1605898417 9027 ffa27cea21aed015ffdc6065b73bbb87 ""
+  "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux" 1605899095 2302 b419b557c717e6961368395d47dea58d ""
+  "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.tex" 1605899094 9051 56e46a8b7a4d4299565c12addbd32bc1 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -124,11 +124,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1603639867 2441887 744b34d3d0cbb41e8ba915b48fd813ae ""
   "ES1_Esempio2.eps" 1605550938 14806 87c3399122316c5773656b6505a083a4 ""
   "ES1_Esercizio1.eps" 1605817417 25334 08c5af1bac0011dc7d4bc1fdae13f91c ""
-  "Esercitazioni.aux" 1605898384 2302 b419b557c717e6961368395d47dea58d "pdflatex"
+  "Esercitazioni.aux" 1605899095 2302 b419b557c717e6961368395d47dea58d "pdflatex"
   "Esercitazioni.bbl" 1605897584 1144 063658758effd35d08e3716c05081c21 "biber Esercitazioni"
-  "Esercitazioni.out" 1605898384 500 d41f2905b2d6fd84e9284f9a4acb433b "pdflatex"
-  "Esercitazioni.run.xml" 1605898384 2370 58bd64a8a1efa51eb2fbe9a3b952c289 "pdflatex"
-  "Esercitazioni.tex" 1605898417 9027 ffa27cea21aed015ffdc6065b73bbb87 ""
+  "Esercitazioni.out" 1605899095 500 d41f2905b2d6fd84e9284f9a4acb433b "pdflatex"
+  "Esercitazioni.run.xml" 1605899095 2370 58bd64a8a1efa51eb2fbe9a3b952c289 "pdflatex"
+  "Esercitazioni.tex" 1605899094 9051 56e46a8b7a4d4299565c12addbd32bc1 ""
   "MUL2/Dp.eps" 1605532576 75080 f8243c59c78dc4a99d49de50b65a059d ""
   "MUL2/Dp_ES1_0.5.eps" 1605897906 65420 3ab946c2ec20a8fe23972859c5342656 ""
   "MUL2/Dp_ES1_0.eps" 1605895876 64671 b87ba68943f55afaf695c6b69e8198a6 ""
@@ -142,9 +142,9 @@
   (generated)
   "Esercitazioni.pdf"
   "Esercitazioni.aux"
-  "Esercitazioni.log"
-  "Esercitazioni.run.xml"
-  "Esercitazioni.out"
   "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.log"
+  "Esercitazioni.out"
   "Esercitazioni.bcf"
   "/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf"
+  "Esercitazioni.run.xml"
+  "Esercitazioni.log"

@@ -106,3 +106,19 @@ Feedback sui parametri in input inseriti, e informazioni sulla criticitá del pr
 
 + **Plot.plt**
     + Genera delle immagini vettoriali (in .eps) tramite *gnuplot*
+
+
+***SVOLTO ESERCIZIO 1***
+
+### **Esercizio 2**
+
+Prima cosa che si nots, viene utilizzato un tempo molto piú lungo per la decompressione, si puó quindi ridurre l'intervallo di tempo di integrazione.
+
++ t = 225 s
++ dt = 0.001 s
++ unico compartimento (p_e é una pressione ambiente ma NON costante, ha andamento esponenziale)
++ volume del compartimento 0.13 m³
++ T = 23 C uguale per entrambi gli input
++ stessa cosa per la pressione iniziale 100 kPa
++ tp = 75 s, parametro da vedere nelle slide di decompressione
++ la matrice si fa allo stesso modo e il CD é assunto pari a 1

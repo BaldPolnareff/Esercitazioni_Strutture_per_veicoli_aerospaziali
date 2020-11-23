@@ -7,6 +7,7 @@
 \usepackage[]{amsmath}
 \usepackage{gensymb}
 \usepackage{mathtools}
+\usepackage{fancyref}
 \addbibresource{bibliography.bib}
 \author{De Trane Giorgio\\s275514}
 \title{\textbf{Esercitazioni Strutture\\per Veicoli Spaziali}}
@@ -20,7 +21,7 @@
         \textit{Anno accademico\\2020-2021}
     \end{center}
     \pagebreak
-    \section{Esercitazione 1}
+    \section{Esercitazione 1\label{Esercitazione_1}}
     L'esercitazione é svolta utilizzando uno script in Fortran, messo a disposizione
     in un archivio denominato \textit{MUL2} \autocite*{MUL2} e contenente anche un file di input ad hoc, in formato \textit{.dat},
     oltre a degli utili script di esempio per \textit{gnuplot} \autocite*{gnuplot}, un libre software utilizzato poi per plottare tutti i grafici che seguono.
@@ -198,6 +199,8 @@
         \begin{center}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_0.eps}\\ 
             \textit{Fig.6: Andamento delle pressioni} \\ 
+            \phantomsection
+            \label{fig:press_effl_0}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_0.eps}\\ 
             \textit{Fig.7: Andamento del gradiente di pressione}\\
         \end{center}
@@ -206,6 +209,8 @@
         \begin{center}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_0.5.eps}\\ 
             \textit{Fig.8: Andamento delle pressioni} \\ 
+            \phantomsection
+            \label{fig:press_effl_0.5}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_0.5.eps}\\
             \textit{Fig.9: Andamento del gradiente di pressione}\\
         \end{center}
@@ -214,12 +219,14 @@
         \begin{center}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES1_1.eps}\\ 
             \textit{Fig.10: Andamento delle pressioni} \\ 
+            \phantomsection
+            \label{fig:press_effl_1}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES1_1.eps}\\
             \textit{Fig.11: Andamento del gradiente di pressione}\\
         \end{center}
         \pagebreak
 
-        \subsection{Esercizio 2}
+        \subsection{Esercizio 2\label{Es2}}
 
         Viene presa in analisi la depressurizzazione dell'\textit{UPM-Sat1} 
         \autocite*{UPM_sat1}, in un tempo di 225 s. \\ 
@@ -230,6 +237,7 @@
         \begin{equation}
             \frac{p_e}{p_i} = e^{-\left ({\frac{t}{t_p}}  \right )^2}
         \end{equation}
+        \phantomsection \label{exp_press}
         \\ 
         Dove $t_p$ é un tempo caratteristico, pari a 0.75 s in questo caso.
         \\ 
@@ -252,26 +260,100 @@
         
         \begin{center}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_5.eps}\\ 
+            \phantomsection
+            \label{fig:press_10_5}
             \textit{Fig.12: Andamento delle pressioni} \\ 
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_5.eps}\\
+            \phantomsection
+            \label{fig:grad_press_10_5}
             \textit{Fig.13: Andamento del gradiente di pressione}\\
         \end{center}
         \pagebreak
         \begin{center}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_6.eps}\\ 
+            \phantomsection
+            \label{fig:press_10_6}
             \textit{Fig.14: Andamento delle pressioni} \\ 
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_6.eps}\\
+            \phantomsection
+            \label{fig:grad_press_10_6}
             \textit{Fig.15: Andamento del gradiente di pressione}\\
         \end{center}
         \pagebreak
 
         \begin{center}
-            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_7.eps}\\ 
+            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/p_ES2_7.eps}\\
+            \phantomsection
+            \label{fig:press_10_7} 
             \textit{Fig.16: Andamento delle pressioni} \\ 
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Dp_ES2_7.eps}\\
+            \phantomsection
+            \label{fig:grad_press_10_7}
             \textit{Fig.17: Andamento del gradiente di pressione}\\
         \end{center}
+        \pagebreak
+        \subsubsection{Riflessioni}
+        Dal primo Esercizio (\ref{Es1}), prendendo in analisi le prime due camere, si puó immediatamente notare come,
+        a paritá di condizioni e di area comunicante tra i due volumi,
+        il coefficiente di efflusso giochi un ruolo importante nel determinare l'andamento
+        delle pressioni nelle due camere e, di conseguenza, il gradiente di pressione tra le due,
+        a sua volta origine di carichi agenti sulla parete.\\ 
+        Sono stati considerati tre casi, ossia il caso limite di efflusso nullo, quello di efflusso totale
+        ed un caso intermedio.\\ 
+        Nel caso di efflusso nullo (\ref{fig:press_effl_0}), la pressione cresce
+        vertiginosamente entro pochi istanti nella prima stanza, con un picco piú elevato 
+        rispetto agli altri casi, dopodiché resta costante, mentre nella seconda camera
+        si ha una crescita lineare piú lenta fino ad un picco piú basso che negli altri casi.\\ 
+        Considerando un efflusso intermedio (\ref{fig:press_effl_0.5}), si puó giá 
+        notare come la pressione nella prima camera cresca sí rapidamente, ma 
+        fino ad un valore di picco meno elevato, per poi stabilizzarsi brevemente e riprendere con una crescita molto lenta, 
+        mentre nella seconda camera si ha una crescita piú rapida del caso precedente e fino ad un valore di picco piú alto.
+        \\ 
+        Il trend é ancora piú evidente se si prende in considerazione un efflusso 
+        totale (\ref{fig:press_effl_1}): la pressione della prima camera
+        raggiunge un picco ancora piú basso e tende a crescere un po' piú rapidamente
+        dopo una breve stabilizzazione, ma comunque entro valori piú bassi dei casi precedenti, mentre 
+        la seconda camera vede una crescita di pressione ancora piú rapida
+        e fino ad un picco piú alto.\linebreak
+        \linebreak
+        Quindi, dato che il gradiente é semplicemente calcolato come il valore assoluto
+        della differenza tra i due profili di pressione, si nota immediatamente che, 
+        all'aumentare del coefficiente di efflusso da 0 a 1, il suo valore
+        massimo si minimizza e si ottiene anche una decrescita piú rapida.\\ 
+        Da ció si deduce che, avere un efflusso troppo basso (o, peggio ancora, nullo)
+        tra cabina e altri compartimenti in presenza di una breccia verso l'ambiente esterno, genera dei carichi di sollecitazione
+        piú elevati, con possibili danni strutturali catastrofici.
 
+        \pagebreak
+
+        
+        Nel secondo Esercizio (\ref{Es2}), il coefficiente di efflusso viene assunto unitario
+        ed il focus é sull'area che separa i due ambienti studiati.\\ 
+        Nello specifico, vengono ancora una volta analizzate le pressioni tra le camere, 
+        al fine di studiarne l'andamento del gradiente di pressione, 
+        mettendo in risalto l'influenza che l'area di comunicazione puó avere.\\ 
+        Il valore é ridotto, progressivamente nei tre casi,
+        di un ordine di grandezza.\\ \linebreak
+        Nel primo caso in questione, i due profili di pressione sono pressappoco identici (si ricorda che il modello utilizzato 
+        é esponenziale \ref{exp_press}), per cui il gradiente ha un valore di picco molto basso (\ref{fig:grad_press_10_5}).\\ 
+        Nel secondo caso l'area si riduce di un ordine di grandezza: i due profili
+        di pressione cominciano a differenziarsi in maniera piú evidente per la scala studiata,
+        ed il gradiente assume, come logico aspettarsi, un andamento analogo al precedente ma con un massimo significativamente
+        piú elevato, di ben due ordini di grandezza per la precisione (\ref{fig:grad_press_10_6}).\\ 
+        Nell'ultimo caso, l'area viene ulteriormente ridotta di un altro ordine di grandezza:
+        stavolta gli andamenti delle pressioni si discostano sostanzialmente, con un decadimento
+        molto piú rapido per la seconda camera.\\ 
+        Di conseguenza, il gradiente risultante, pur mantenendo lo stesso tipo di 
+        andamento, é cresciuto ulteriormente di un ordine di grandezza(\ref{fig:grad_press_10_7}).\\ 
+        
+    
+
+        Si puó quindi intuire che, in una situazione di depressurizzazione, il ruolo dell'area di efflusso sia fondamentale
+        nel tenere sotto controllo i carichi dovuti al gradiente di pressione: un'area troppo piccola
+        potrebbe creare un gradiente eccessivamente alto e potenzialmente pericoloso per le
+        strutture coinvolte.
+        \pagebreak
+        \section{Esercitazione 2\label{Esercitazione_2}}
         \pagebreak
         \printbibliography
 \end{document}

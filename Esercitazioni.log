@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  23 NOV 2020 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  24 NOV 2020 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -528,27 +528,33 @@ Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
 Package: varioref 2020/01/23 v1.6c package for extended references (FMi)
 \c@vrcnt=\count419
 ))
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 19.
+
 \@quotelevel=\count420
 \@quotereset=\count421
- (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux)
+(/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux)
 \openout1 = `Esercitazioni.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -562,10 +568,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Esercitazioni.bbl' found.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -576,14 +589,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count422
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out) (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out)
 \@outlinefile=\write4
 \openout4 = `Esercitazioni.out'.
 
-LaTeX Info: Redefining \Ref on input line 15.
+LaTeX Info: Redefining \Ref on input line 23.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count423
@@ -607,40 +620,44 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
+LaTeX Info: Redefining \celsius on input line 23.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 23.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \Omega for \ohm on input line 15.
+LaTeX Info: Redefining \ohm on input line 23.
+Package gensymb Info: Using \Omega for \ohm on input line 23.
 
 Package gensymb Warning: Not defining \micro.
 
 <polito_logo.png, id=48, 1204.5pt x 1204.5pt>
 File: polito_logo.png Graphic file (type png)
 <use polito_logo.png>
-Package pdftex.def Info: polito_logo.png  used on input line 18.
+Package pdftex.def Info: polito_logo.png  used on input line 26.
 (pdftex.def)             Requested size: 276.00105pt x 275.99994pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/polito_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/polito_logo.png>] (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.toc)
+\tf@toc=\write5
+\openout5 = `Esercitazioni.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 35--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
-<MUL2_feedback.png, id=62, 1440.13031pt x 1426.57968pt>
+<MUL2_feedback.png, id=79, 1440.13031pt x 1426.57968pt>
 File: MUL2_feedback.png Graphic file (type png)
 <use MUL2_feedback.png>
-Package pdftex.def Info: MUL2_feedback.png  used on input line 72.
+Package pdftex.def Info: MUL2_feedback.png  used on input line 82.
 (pdftex.def)             Requested size: 345.0pt x 341.73308pt.
-[2] [3 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2_feedback.png (PNG copy)>]
+[3] [4 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2_feedback.png (PNG copy)>]
 Package epstopdf Info: Source file: <ES1_Esempio2.eps>
 (epstopdf)                    date: 2020-11-16 19:22:18
 (epstopdf)                    size: 14806 bytes
@@ -648,29 +665,29 @@ Package epstopdf Info: Source file: <ES1_Esempio2.eps>
 (epstopdf)                    date: 2020-11-16 19:23:08
 (epstopdf)                    size: 8948 bytes
 (epstopdf)             Command: <repstopdf --outfile=ES1_Esempio2-eps-converted-to.pdf ES1_Esempio2.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<ES1_Esempio2-eps-converted-to.pdf, id=84, 651.43375pt x 460.72125pt>
+<ES1_Esempio2-eps-converted-to.pdf, id=100, 651.43375pt x 460.72125pt>
 File: ES1_Esempio2-eps-converted-to.pdf Graphic file (type pdf)
 <use ES1_Esempio2-eps-converted-to.pdf>
-Package pdftex.def Info: ES1_Esempio2-eps-converted-to.pdf  used on input line 88.
+Package pdftex.def Info: ES1_Esempio2-eps-converted-to.pdf  used on input line 98.
 (pdftex.def)             Requested size: 241.49895pt x 170.7946pt.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 94.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 104.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 94.
-
-Missing character: There is no ° in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 95.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 95.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 104.
 
 Missing character: There is no ° in font cmr10!
-[4 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio2-eps-converted-to.pdf>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 105.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 105.
+
+Missing character: There is no ° in font cmr10!
+[5 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esempio2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <MUL2/p.eps>
 (epstopdf)                    date: 2020-11-16 14:08:39
 (epstopdf)                    size: 73516 bytes
@@ -678,12 +695,12 @@ Package epstopdf Info: Source file: <MUL2/p.eps>
 (epstopdf)                    date: 2020-11-16 20:40:11
 (epstopdf)                    size: 28328 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p-eps-converted-to.pdf MUL2/p.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p-eps-converted-to.pdf, id=90, 505.89pt x 722.7pt>
+<MUL2/p-eps-converted-to.pdf, id=106, 505.89pt x 722.7pt>
 File: MUL2/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p-eps-converted-to.pdf  used on input line 112.
+Package pdftex.def Info: MUL2/p-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 224.2479pt x 320.3599pt.
 Package epstopdf Info: Source file: <MUL2/Dp.eps>
 (epstopdf)                    date: 2020-11-16 14:16:16
@@ -692,14 +709,14 @@ Package epstopdf Info: Source file: <MUL2/Dp.eps>
 (epstopdf)                    date: 2020-11-16 20:44:50
 (epstopdf)                    size: 30231 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp-eps-converted-to.pdf MUL2/Dp.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp-eps-converted-to.pdf, id=91, 505.89pt x 722.7pt>
+<MUL2/Dp-eps-converted-to.pdf, id=107, 505.89pt x 722.7pt>
 File: MUL2/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp-eps-converted-to.pdf  used on input line 114.
+Package pdftex.def Info: MUL2/Dp-eps-converted-to.pdf  used on input line 124.
 (pdftex.def)             Requested size: 224.2479pt x 320.3599pt.
- [5 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp-eps-converted-to.pdf>]
+ [6 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ES1_Esercizio1.eps>
 (epstopdf)                    date: 2020-11-19 21:23:37
 (epstopdf)                    size: 25334 bytes
@@ -707,34 +724,34 @@ Package epstopdf Info: Source file: <ES1_Esercizio1.eps>
 (epstopdf)                    date: 2020-11-19 21:23:39
 (epstopdf)                    size: 14397 bytes
 (epstopdf)             Command: <repstopdf --outfile=ES1_Esercizio1-eps-converted-to.pdf ES1_Esercizio1.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<ES1_Esercizio1-eps-converted-to.pdf, id=108, 939.51pt x 614.295pt>
+<ES1_Esercizio1-eps-converted-to.pdf, id=124, 939.51pt x 614.295pt>
 File: ES1_Esercizio1-eps-converted-to.pdf Graphic file (type pdf)
 <use ES1_Esercizio1-eps-converted-to.pdf>
-Package pdftex.def Info: ES1_Esercizio1-eps-converted-to.pdf  used on input line 122.
+Package pdftex.def Info: ES1_Esercizio1-eps-converted-to.pdf  used on input line 132.
 (pdftex.def)             Requested size: 207.0021pt x 135.34215pt.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 137.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
-
-Missing character: There is no ° in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 128.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 128.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 137.
 
 Missing character: There is no ° in font cmr10!
-[6 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 138.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 138.
+
+Missing character: There is no ° in font cmr10!
+[7 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 
  []
 
-[7]
+[8]
 Package epstopdf Info: Source file: <MUL2/p_ES1_0.eps>
 (epstopdf)                    date: 2020-11-20 19:03:13
 (epstopdf)                    size: 64069 bytes
@@ -742,12 +759,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES1_0.eps>
 (epstopdf)                    date: 2020-11-20 19:16:06
 (epstopdf)                    size: 10223 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES1_0-eps-converted-to.pdf MUL2/p_ES1_0.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES1_0-eps-converted-to.pdf, id=119, 505.89pt x 722.7pt>
+<MUL2/p_ES1_0-eps-converted-to.pdf, id=135, 505.89pt x 722.7pt>
 File: MUL2/p_ES1_0-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES1_0-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES1_0-eps-converted-to.pdf  used on input line 200.
+Package pdftex.def Info: MUL2/p_ES1_0-eps-converted-to.pdf  used on input line 210.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES1_0.eps>
 (epstopdf)                    date: 2020-11-20 19:11:16
@@ -756,14 +773,14 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES1_0.eps>
 (epstopdf)                    date: 2020-11-20 19:18:04
 (epstopdf)                    size: 19454 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES1_0-eps-converted-to.pdf MUL2/Dp_ES1_0.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES1_0-eps-converted-to.pdf, id=120, 505.89pt x 722.7pt>
+<MUL2/Dp_ES1_0-eps-converted-to.pdf, id=136, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES1_0-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES1_0-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES1_0-eps-converted-to.pdf  used on input line 204.
+Package pdftex.def Info: MUL2/Dp_ES1_0-eps-converted-to.pdf  used on input line 214.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [8 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_0-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_0-eps-converted-to.pdf>]
+ [9 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_0-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_0-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <MUL2/p_ES1_0.5.eps>
 (epstopdf)                    date: 2020-11-20 19:43:41
 (epstopdf)                    size: 64491 bytes
@@ -771,12 +788,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES1_0.5.eps>
 (epstopdf)                    date: 2020-11-20 19:47:47
 (epstopdf)                    size: 16702 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES1_0.5-eps-converted-to.pdf MUL2/p_ES1_0.5.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES1_0.5-eps-converted-to.pdf, id=138, 505.89pt x 722.7pt>
+<MUL2/p_ES1_0.5-eps-converted-to.pdf, id=154, 505.89pt x 722.7pt>
 File: MUL2/p_ES1_0.5-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES1_0.5-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES1_0.5-eps-converted-to.pdf  used on input line 210.
+Package pdftex.def Info: MUL2/p_ES1_0.5-eps-converted-to.pdf  used on input line 220.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES1_0.5.eps>
 (epstopdf)                    date: 2020-11-20 19:45:06
@@ -785,14 +802,14 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES1_0.5.eps>
 (epstopdf)                    date: 2020-11-20 19:49:10
 (epstopdf)                    size: 20551 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES1_0.5-eps-converted-to.pdf MUL2/Dp_ES1_0.5.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES1_0.5-eps-converted-to.pdf, id=139, 505.89pt x 722.7pt>
+<MUL2/Dp_ES1_0.5-eps-converted-to.pdf, id=155, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES1_0.5-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES1_0.5-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES1_0.5-eps-converted-to.pdf  used on input line 214.
+Package pdftex.def Info: MUL2/Dp_ES1_0.5-eps-converted-to.pdf  used on input line 224.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [9 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_0.5-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_0.5-eps-converted-to.pdf>]
+ [10 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_0.5-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_0.5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <MUL2/p_ES1_1.eps>
 (epstopdf)                    date: 2020-11-20 19:50:50
 (epstopdf)                    size: 65163 bytes
@@ -800,12 +817,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES1_1.eps>
 (epstopdf)                    date: 2020-11-20 19:53:04
 (epstopdf)                    size: 19820 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES1_1-eps-converted-to.pdf MUL2/p_ES1_1.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES1_1-eps-converted-to.pdf, id=157, 505.89pt x 722.7pt>
+<MUL2/p_ES1_1-eps-converted-to.pdf, id=174, 505.89pt x 722.7pt>
 File: MUL2/p_ES1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES1_1-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES1_1-eps-converted-to.pdf  used on input line 220.
+Package pdftex.def Info: MUL2/p_ES1_1-eps-converted-to.pdf  used on input line 230.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES1_1.eps>
 (epstopdf)                    date: 2020-11-20 19:52:03
@@ -814,29 +831,29 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES1_1.eps>
 (epstopdf)                    date: 2020-11-20 19:53:04
 (epstopdf)                    size: 19411 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES1_1-eps-converted-to.pdf MUL2/Dp_ES1_1.eps>
-(epstopdf)             \includegraphics on input line 224.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES1_1-eps-converted-to.pdf, id=158, 505.89pt x 722.7pt>
+<MUL2/Dp_ES1_1-eps-converted-to.pdf, id=175, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES1_1-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES1_1-eps-converted-to.pdf  used on input line 224.
+Package pdftex.def Info: MUL2/Dp_ES1_1-eps-converted-to.pdf  used on input line 234.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [10 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_1-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_1-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 239--251
+ [11 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES1_1-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES1_1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 249--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--251
+Underfull \hbox (badness 10000) in paragraph at lines 249--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--270
 
  []
 
-[11]
+[12]
 Package epstopdf Info: Source file: <MUL2/p_ES2_5.eps>
 (epstopdf)                    date: 2020-11-20 20:29:47
 (epstopdf)                    size: 89113 bytes
@@ -844,12 +861,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES2_5.eps>
 (epstopdf)                    date: 2020-11-20 21:35:14
 (epstopdf)                    size: 27078 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES2_5-eps-converted-to.pdf MUL2/p_ES2_5.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES2_5-eps-converted-to.pdf, id=188, 505.89pt x 722.7pt>
+<MUL2/p_ES2_5-eps-converted-to.pdf, id=204, 505.89pt x 722.7pt>
 File: MUL2/p_ES2_5-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES2_5-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES2_5-eps-converted-to.pdf  used on input line 262.
+Package pdftex.def Info: MUL2/p_ES2_5-eps-converted-to.pdf  used on input line 272.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES2_5.eps>
 (epstopdf)                    date: 2020-11-20 20:36:58
@@ -858,14 +875,14 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES2_5.eps>
 (epstopdf)                    date: 2020-11-20 21:35:15
 (epstopdf)                    size: 30185 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES2_5-eps-converted-to.pdf MUL2/Dp_ES2_5.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES2_5-eps-converted-to.pdf, id=189, 505.89pt x 722.7pt>
+<MUL2/Dp_ES2_5-eps-converted-to.pdf, id=205, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES2_5-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES2_5-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES2_5-eps-converted-to.pdf  used on input line 266.
+Package pdftex.def Info: MUL2/Dp_ES2_5-eps-converted-to.pdf  used on input line 276.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [12 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_5-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_5-eps-converted-to.pdf>]
+ [13 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_5-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <MUL2/p_ES2_6.eps>
 (epstopdf)                    date: 2020-11-20 21:37:46
 (epstopdf)                    size: 89047 bytes
@@ -873,12 +890,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES2_6.eps>
 (epstopdf)                    date: 2020-11-20 21:42:07
 (epstopdf)                    size: 27838 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES2_6-eps-converted-to.pdf MUL2/p_ES2_6.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES2_6-eps-converted-to.pdf, id=208, 505.89pt x 722.7pt>
+<MUL2/p_ES2_6-eps-converted-to.pdf, id=225, 505.89pt x 722.7pt>
 File: MUL2/p_ES2_6-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES2_6-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES2_6-eps-converted-to.pdf  used on input line 273.
+Package pdftex.def Info: MUL2/p_ES2_6-eps-converted-to.pdf  used on input line 283.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES2_6.eps>
 (epstopdf)                    date: 2020-11-20 21:40:22
@@ -887,14 +904,14 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES2_6.eps>
 (epstopdf)                    date: 2020-11-20 21:42:07
 (epstopdf)                    size: 33440 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES2_6-eps-converted-to.pdf MUL2/Dp_ES2_6.eps>
-(epstopdf)             \includegraphics on input line 277.
+(epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES2_6-eps-converted-to.pdf, id=209, 505.89pt x 722.7pt>
+<MUL2/Dp_ES2_6-eps-converted-to.pdf, id=226, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES2_6-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES2_6-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES2_6-eps-converted-to.pdf  used on input line 277.
+Package pdftex.def Info: MUL2/Dp_ES2_6-eps-converted-to.pdf  used on input line 287.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [13 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_6-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_6-eps-converted-to.pdf>]
+ [14 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_6-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <MUL2/p_ES2_7.eps>
 (epstopdf)                    date: 2020-11-20 21:43:51
 (epstopdf)                    size: 80282 bytes
@@ -902,12 +919,12 @@ Package epstopdf Info: Source file: <MUL2/p_ES2_7.eps>
 (epstopdf)                    date: 2020-11-20 21:48:12
 (epstopdf)                    size: 24093 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/p_ES2_7-eps-converted-to.pdf MUL2/p_ES2_7.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/p_ES2_7-eps-converted-to.pdf, id=229, 505.89pt x 722.7pt>
+<MUL2/p_ES2_7-eps-converted-to.pdf, id=245, 505.89pt x 722.7pt>
 File: MUL2/p_ES2_7-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/p_ES2_7-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/p_ES2_7-eps-converted-to.pdf  used on input line 285.
+Package pdftex.def Info: MUL2/p_ES2_7-eps-converted-to.pdf  used on input line 295.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Dp_ES2_7.eps>
 (epstopdf)                    date: 2020-11-20 21:46:16
@@ -916,40 +933,40 @@ Package epstopdf Info: Source file: <MUL2/Dp_ES2_7.eps>
 (epstopdf)                    date: 2020-11-20 21:48:12
 (epstopdf)                    size: 28805 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Dp_ES2_7-eps-converted-to.pdf MUL2/Dp_ES2_7.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Dp_ES2_7-eps-converted-to.pdf, id=230, 505.89pt x 722.7pt>
+<MUL2/Dp_ES2_7-eps-converted-to.pdf, id=246, 505.89pt x 722.7pt>
 File: MUL2/Dp_ES2_7-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Dp_ES2_7-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Dp_ES2_7-eps-converted-to.pdf  used on input line 289.
+Package pdftex.def Info: MUL2/Dp_ES2_7-eps-converted-to.pdf  used on input line 299.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
- [14 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_7-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_7-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 296--326
+ [15 </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/p_ES2_7-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Dp_ES2_7-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--336
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 330--348
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 340--358
 
  []
 
 
-Overfull \hbox (6.30621pt too wide) in paragraph at lines 330--348
+Overfull \hbox (6.30621pt too wide) in paragraph at lines 340--358
 \OT1/cmr/m/n/10 Nell'ultimo caso, l'area viene ul-te-ri-or-mente ri-dotta di un al-tro or-dine di grandezza:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--348
+Underfull \hbox (badness 10000) in paragraph at lines 340--358
 
  []
 
-[16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
- [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+[17] [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
 Package rerunfilecheck Info: File `Esercitazioni.out' has not changed.
 (rerunfilecheck)             Checksum: 54D4361BDBB7617F4C6273D8ED47F124;682.
 Package logreq Info: Writing requests to 'Esercitazioni.run.xml'.
@@ -957,18 +974,18 @@ Package logreq Info: Writing requests to 'Esercitazioni.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16513 strings out of 480906
- 320084 string characters out of 5910771
- 951917 words of memory out of 5000000
- 31841 multiletter control sequences out of 15000+600000
+ 16564 strings out of 480906
+ 320991 string characters out of 5910771
+ 951946 words of memory out of 5000000
+ 31883 multiletter control sequences out of 15000+600000
  544280 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,7n,46p,888b,1577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,7n,46p,888b,1582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (18 pages, 4856402 bytes).
+Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (19 pages, 4859267 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

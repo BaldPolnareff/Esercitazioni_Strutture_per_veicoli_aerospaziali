@@ -35,13 +35,28 @@ K = [
     0 0 -k_3 k_3
     ];
 
-[PHI LAMBDA] = eig (K, M, "qz"); % Risoluzione del problema agli autovalori
+[PHI LAMBDA] = eig (K, M); % Risoluzione del problema agli autovalori
                                  % |K - (LAMBDA)*M| = 0
                                  % PHI é il vettore degli autovalori e rappresenta i modi
                                  % LAMBDA é la matrice diagonale degli autovalori e vale
                                  % (LAMBDA_i_j) = (OMEGA_i_j)²
                                  % OMEGA é la matrice diagonale delle frequenze naturali
 
-OMEGA = sqrt(LAMBDA);            % Pulsazioni naturali
+OMEGA = sqrt(LAMBDA);            % Pulsazioni naturali [s^(-1)]
 
-FREQ_NAT = OMEGA/(2*pi);        % Frequenze naturali
+FREQ_NAT = OMEGA/(2*pi);         % Frequenze naturali [Hz]
+
+
+%% GRANDEZZE GENERALIZZATE %%
+
+M_gen = (PHI)' * M * PHI;        % Mattrice Masse generalizzate
+K_gen = (PHI)' * K * PHI;        % Matrice Rigidezze generalizzate
+
+% Le due matrici sono diagonali e PHI é M-normalizzata, i termini non
+% nulli nelle posizioni non diagonali sono dovuti all'implementazione dell'
+% algoritmo numerico, ma sono praticamente dei numeri talmente piccoli da
+% considerarsi nulli, pertanto sovrascrivo manualmente quei valori 
+% con degli zeri per semplicitá espositiva
+
+M_gen = eye (4);
+K_gen = LAMBDA;

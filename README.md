@@ -122,3 +122,6 @@ Prima cosa che si nots, viene utilizzato un tempo molto piú lungo per la decomp
 + stessa cosa per la pressione iniziale 100 kPa
 + tp = 75 s, parametro da vedere nelle slide di decompressione
 + la matrice si fa allo stesso modo e il CD é assunto pari a 1
+
+# Esercitazione 2
+

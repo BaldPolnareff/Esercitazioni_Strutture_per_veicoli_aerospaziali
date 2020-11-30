@@ -21,6 +21,8 @@ t_1 = 160;     % [s]
 
 %% GRANDEZZE OPERATIVE %% 
 
+F = [F_0, 0, 0, 0]';             % Vettore delle forze
+
 M = [
     m_1 0 0 0, 
      0 m_2 0 0,                  % Matrice delle masse
@@ -51,11 +53,13 @@ FREQ_NAT = OMEGA/(2*pi);         % Frequenze naturali [Hz]
 
 M_gen = (PHI)' * M * PHI;        % Mattrice Masse generalizzate
 K_gen = (PHI)' * K * PHI;        % Matrice Rigidezze generalizzate
+F_gen = (PHI)' * F;              % Forze generalizzate
 
 % Le due matrici sono diagonali e PHI é M-normalizzata, i termini non
 % nulli nelle posizioni non diagonali sono dovuti all'implementazione dell'
-% algoritmo numerico, ma sono praticamente dei numeri talmente piccoli da
-% considerarsi nulli, pertanto sovrascrivo manualmente quei valori 
+% algoritmo numerico, ma sono praticamente dei numeri talmente piccoli (inferiori alla
+% precisione di macchina) da considerarsi nulli,
+% pertanto sovrascrivo manualmente quei valori 
 % con degli zeri per semplicitá espositiva
 
 M_gen = eye (4);

@@ -73,8 +73,7 @@ t_end_short = 0.2;
 i = 1;
 Q_short = [0 0 0 0];
 for i = 1:4
-    q_i = F_gen (i) / K_gen (i,i) * (1 - cos (OMEGA (i, i) * t_end_short));
-    Q_short (i) = q_i;
+    Q_short (i) = F_gen (i) / K_gen (i,i) * (1 - cos (OMEGA (i, i) * t_end_short));
     i = i + 1;
 end
 
@@ -85,8 +84,7 @@ t_end_long = 160;
 i = 1;
 Q_long = [0 0 0 0];
 for i = 1:4
-    q_i = F_gen (i) / K_gen (i,i) * (1 - cos (OMEGA (i, i) * t_end_long));
-    Q_long (i) = q_i;
+    Q_long (i) = F_gen (i) / K_gen (i,i) * (1 - cos (OMEGA (i, i) * t_end_long));
     i = i + 1;
 end
 

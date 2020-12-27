@@ -59,6 +59,27 @@
       \field{note}{Accessed on 2020-15-11}
       \field{title}{MUL2}
     \endentry
+    \entry{Inkscape}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6376cab05e82f18f4779e535e95f621}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={The\bibnamedelima Inkscape},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{fullhash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{bibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://inkscape.org/}}
+      \field{title}{Inkscape}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

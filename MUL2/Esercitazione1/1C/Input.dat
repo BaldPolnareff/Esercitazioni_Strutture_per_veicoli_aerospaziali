@@ -1,0 +1,90 @@
+3
+0.00001
+
+4
+
+4 3 198 67
+
+23
+-49.85
+
+89.876
+26.5
+
+0.
+
+0    0.6  0    0.56 0.8    
+0.6  0    0.42 0.56 0
+0    0.42 0    0.56 0
+0.56 0.56 0.56 0    0
+0.8  0    0    0    0
+
+0
+
+0
+
+!------------------ INPUT FILE FORMAT -------------------!
+! tf                                                     !
+! dt                                                     !
+!                                                        !
+! N                                                      !
+!                                                        !
+! V1 V2 ... VN                                           !
+!                                                        !
+! Tc                                                     !
+! Ta                                                     !
+!                                                        !
+! pc                                                     !
+! pa                                                     !
+!                                                        !
+! tp                                                     !
+!                                                        !
+! A11 A12 ... A1(N+1)                                    !
+! A21 A22 ... A2(N+1)                                    !
+! .                                                      !
+! .                                                      !
+! .                                                      !
+! A(N+1)1 ... A(N+1)(N+1)                                !
+!                                                        !
+! nh                                                     !
+! lh11 lh12 bh1 Ah1 wh1 ph1                              !
+! lh21 lh22 bh2 Ah2 wh2 ph2                              !
+! ...                                                    !
+!                                                        !
+! nt                                                     !
+! lt11 lt12 bt1 At1 wt1 pt1                              !
+! lt21 lt22 bt2 At2 wt2 pt2                              !
+! ...                                                    !
+!                                                        !
+!-----         LEGEND         ---------------------------!
+! tf: Analysis time [s]                                  !
+! dt: Time step [s]                                      !
+! N: Number of compartments                              !
+! Vi: Volume of compartment i [m^3]                      !
+! Tc: Cabin initial temperature [°C]                     !
+! Ta: Ambient temperature [°C]                           !
+! pc: Cabin initial pressure [kPa]                       !
+! pa: Ambient pressure [kPa]                             !
+! tp: Characteristic time of launcher [s]                !
+!     Equals zero if ambient pressure is constant.       !
+! Aij: Passive venting and breach - Effective Area [m^2] !
+!      between compartment i and j, with i,j=1,...,N+1.  !
+!      The component N+1 represents the ambient.         !
+! nh: Number of hinged BOPs.                             !
+! lhi1, lhi2: Chambers communicating through ith         !
+!             hinged BOP.                                !
+! bhi: Dimension of the ith hinged panel perp. to        !
+!      rotation axis [m].                                !
+! Ahi: Area [m2] of the ith hinged panel.                !
+! whi: Weight [kg] of the ith hinged panel.              !
+! phi: Pressure release [kPa] of the ith hinged panel.   !
+! nt: Number of translational BOPs.                      !
+! lti1, lti2: Chambers communicating through ith         !
+!             translational BOP.                         !
+! bti: One of the side dimension of the ith              !
+!      translational panel [m].                          !
+! Ati: Area [m2] of the ith translational panel.         !
+! wti: Weight [kg] of the ith translational panel.       !
+! pti: Pressure release [kPa] of the ith translational   !
+!      panel.                                            !
+!------------------ INPUT FILE FORMAT -------------------!

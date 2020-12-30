@@ -1,0 +1,38 @@
+101   (101 for Structural Static Analysis, 103 for Structural Modal Analysis,  167 for Thermal Static Analysis)
+
+100             ( 100 = Full Generic Solver      300 = Full ABACI Solver)
+     
+10              Number of Modes for the Modal Analysis (** ATTENTION to ALL Modes choise)
+
+MITC            Sheral locking correction beam  (NONE/REDI/SELI/MITC)
+NONE            Sheral locking correction plate (NONE/REDI/SELI/MITC)
+NONE            Sheral locking correction solid (NONE/REDI/SELI/MITC)
+   
+   
+   
+   
+   
+Format:
+   
+Type of Analysis (101 for Structural Static Analysis,  102 for Structural Static with Aerodynamic Load Analysis,  103 for Structural Modal Analysis,  144 for Aeroelastic Static Analysis)
+   
+Type of Theory (EULE, FSDT, EDTN). If theory type is EDTN, an other number compares; it represents the expansion order of EDTN theory (for example, for expansion order 3 the approximation functions will be: 1, x, z, x^2, xz, z^2, x^3, x^2z, xz^2, z^3)
+   
+Type of shape functions integration (fulint (full integration = classical Gauss integration), redint(reduced integration for all the terms), selint(selective integration = reduced integration only for shear terms))
+   
+Method used to solve the structural FEM system.
+   
+Notation_flag: flag for the notation used
+       = 1 : notation with X_Local_Axis parallel to X_Glob_Axis for every Wing Segment
+       = 2 : notation with X_Local_Axis in general not parallel to X_Glob_Axis for every Wing Segment
+   
+Number of Modes for the Modal Analysis
+   
+   
+   
+NOTE 1: in this it could be present the vaues of PENALTY NUMBERS:
+    - Shear Penalty (on material coefficients C44 and C55) for only Euler Theory;
+    - Penalty (on K(4,4), K(6,6), K(7,7), K(9,9), that are terms of Stiffness Matrix Block corresponding to i-th node and j-th node) for Euler, FSDT Theories;
+    - Constraints Penalty (on K(i,i), that are terms on the Diagonal of Stiffness Matrix; they are corresponding to Constrainted Degrees of Freedom). Such a Constraint Penalty Number can be equal to the number for previous Penalty.
+   
+NOTE 2: Maybe it's better to put SHEAR PENALTY and PENALTY numbers in a Keyword class, or something similar.

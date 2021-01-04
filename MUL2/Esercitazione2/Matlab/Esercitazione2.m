@@ -170,9 +170,11 @@ grid on
 
 %% Power Spectral Density
 
-[Pxx, freq] = periodogram(X_mid_ddot(4, :) / gravity, [], length(X_mid_ddot(4, :)), length(t_end_mid));
+[Pxx, freq] = periodogram(X_mid_ddot(4, :), [], length(X_mid_ddot(4, :)), length(t_end_mid));
 
 figure()
 loglog(freq, Pxx / gravity ^2, 'linewidth', 2.5)
 xlabel('Frequency [Hz]')
 title('Power Spectral Density')
+
+X_rms = sqrt(trapz(freq,Pxx));

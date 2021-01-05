@@ -1,4 +1,4 @@
 2      N_LAM = total number of laminations
 
 LAM2  1   1   0.0D0       0.0D0
-LAM2  2   1   0.0D0      90.0D0
+LAM2  2   1   0.0D0      45.0D0

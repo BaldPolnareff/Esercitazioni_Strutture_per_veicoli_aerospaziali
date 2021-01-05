@@ -3,7 +3,7 @@
   
  -->routine:MUL2  in file:main.for  is running
 INPUT Directory:/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/INPUT
- RUN START AT : 04 January 2021   1:37:03.052 PM
+ RUN START AT : 05 January 2021   5:02:55.443 PM
  -->routine:READ_INPUT  in file:read_input.for  is running.
  -->routine:READ_ANALYSIS  in file:read_input.for  is running.
  -->routine:READ_NODES  in file:read_input.for  is running.

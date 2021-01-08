@@ -1,4 +1,4 @@
-199  (101 for Structural Static Analysis, 103 for Structural Modal Analysis,  199 for Thermal Static Analysis)
+101  (101 for Structural Static Analysis, 103 for Structural Modal Analysis,  199 for Thermal Static Analysis)
 
 100             ( 100 = Full Generic Solver      300 = Full ABACI Solver)
      

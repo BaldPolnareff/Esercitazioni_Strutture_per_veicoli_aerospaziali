@@ -1114,14 +1114,14 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YY LE (90°)')
-    legend('')
+    legend('sigma yy')
 
     figure()
     plot(z.static, sigma.yz_90_LE, 'linewidth', 2)
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YZ LE (90°)')
-    legend('')
+    legend('sigma yz')
 
     % LE 45
     figure()
@@ -1129,14 +1129,14 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YY LE (45°)')
-    legend('')
+    legend('sigma yy')
 
     figure()
     plot(z.static, sigma.yz_45_LE, 'linewidth', 2)
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YZ LE (45°)')
-    legend('')
+    legend('sigma yz')
 
     % LE vs TE 90 (yy)
     figure()
@@ -1156,7 +1156,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YY (90°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
     % LE vs TE 90 (yz)
     figure()
@@ -1176,7 +1176,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YZ (90°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
 
     % LE vs TE 45 (yy)
@@ -1197,7 +1197,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YY (45°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
     % LE vs TE 45 (yz)
     figure()
@@ -1217,7 +1217,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Static Analysis - Sigma YZ (45°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
 
 %% Thermal plots (12)  
@@ -1228,21 +1228,21 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma XX LE (90°)')
-    legend('')
+    legend('sigma xx')
         
     figure()
     plot(z.static, sigma.yy.thermal_90_LE, 'linewidth', 2)
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma YY LE (90°)')
-    legend('')
+    legend('sigma yy')
 
     figure()
     plot(z.static, sigma.zz.thermal_90_LE, 'linewidth', 2)
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma ZZ LE (90°)')
-    legend('')
+    legend('sigma zz')
 
     % LE 45
     figure()
@@ -1250,21 +1250,21 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma XX LE (45°)')
-    legend('')
+    legend('sigma xx')
         
     figure()
     plot(z.static, sigma.yy.thermal_45_LE, 'linewidth', 2)    
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma YY LE (45°)')
-    legend('')
+    legend('sigma yy')
 
     figure()
     plot(z.static, sigma.zz.thermal_45_LE, 'linewidth', 2)    
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma ZZ LE (45°)')
-    legend('')
+    legend('sigma zz')
    
    
     % LE vs TE 90 (xx)
@@ -1285,7 +1285,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma XX (90°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
     
 
     % LE vs TE 90 (yy)
@@ -1306,7 +1306,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma YY (90°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
     
     % LE vs TE 90 (zz)
     figure()
@@ -1326,7 +1326,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma ZZ (90°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
 
     % LE vs TE 45 (xx)
@@ -1347,7 +1347,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma XX (45°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
     % LE vs TE 45 (yy)
     figure()
@@ -1367,7 +1367,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma YY (45°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
 
     % LE vs TE 45 (zz)
     figure()
@@ -1387,7 +1387,7 @@ z.static = [-0.299999003E-02
     xlabel('Z')
     ylabel('Sigma')
     title('Thermal Analysis - Sigma ZZ (45°): LE vs TE')
-    legend('')
+    legend('LE', 'TE 1', 'TE 2', 'TE 3', 'TE 4', 'TE 5', 'TE 6')
   
   
   

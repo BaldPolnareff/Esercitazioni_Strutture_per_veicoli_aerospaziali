@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{etex}
 \usepackage[backend=biber]{biblatex}
 \usepackage[]{hyperref}
 \usepackage{graphicx}
@@ -10,6 +11,8 @@
 \usepackage{fancyref}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{physics}
+\usepackage{tikz}
+\usepackage{pgfplots}
 
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -21,6 +24,9 @@
     pdftitle={Esercitazioni Strutture per veicoli aerospaziali},
     bookmarks=true,
 }
+\usepgfplotslibrary{external}
+\pgfplotsset{compat=1.5}
+\tikzexternalize 
 \author{De Trane Giorgio\\s275514}
 \title{\textbf{Esercitazioni Strutture\\per Veicoli Spaziali}}
 
@@ -454,6 +460,25 @@
             \includegraphics[width=0.8\textwidth]{MUL2/Esercitazione2/Esercitazione2.eps}
             \caption{Lanciatore (Disegnato con \textit{Inkscape} \autocite{Inkscape})}
         \end{figure}
+
+
+        \begin{tikzpicture}[h!]
+            \centering
+            \begin{axis}[
+                title=hi,
+               
+                colormap/cool,
+            ]
+            \addplot3[
+                mesh,
+                samples=50,
+                domain=-8:8,
+            ]
+            {sin(deg(sqrt(x^2+y^2)))/sqrt(x^2+y^2)};
+            \addlegendentry{$\frac{sin(r)}{r}$}
+            \end{axis}
+            \end{tikzpicture}
+
         \clearpage
         \printbibliography
 \end{document}

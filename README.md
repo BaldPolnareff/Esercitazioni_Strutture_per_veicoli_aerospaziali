@@ -125,3 +125,87 @@ Prima cosa che si nots, viene utilizzato un tempo molto piú lungo per la decomp
 
 # Esercitazione 2
 
+Analisi su una struttura a masse discretizzate: permette di semplificare l'analisi.
+
+Il sistema viene suddiviso in quattro masse, collegate in serie attraverso molle e smorzatori, questi ultimi trascurabili per non complicare l'analisi.
+
+Si ipotizza un carico a gradino (plot del gradino) che modellizza la spinta nei primi 160 secondi di lancio, utile per la risposta dinamica, poiché permette di ricavare una soluzione analitica al problema.
+
+L'analisi effettuata é un'analisi modale con sistema non smorzato.
+Si considera una forza esterna nulla (sistema omogeneo) e se ne calcolano i modi.
+
+Attraverso lo studio del sistema libero non smorzato si ottengono un set di equazioni di equilibrio accoppiate, passando poi ad una notazione matriciale si definisce il sistema attraverso l'equazione:
+
+M * X_ddot(t) + K * X(t) = 0; (forma dimensionale)
+
++ M = matrice delle masse concentrate (diagonale)
++ K = matrice di rigidezza (data)
++ X_ddot = vettore accelerazione
++ X = vettore spostamento
+
+A questo punto si calcola la soluzione omogenea, che rappresenta un moto armonico:
+
+X(t) = PHI * e ^ (i * OMEGA * t);
+
+Dalla sostituzione della legge si ottengono soluzioni non banali, che restituiscono le pulsazioni naturali i-esime elevate al quadrato e PHI (autovettori), dato che é un problema agli autovalori (pulsazioni naturali al quadrato).
+
+Ora si definisce il problema non omogeneo, ma con la forzante F(t), che peró é un vettore colonna con solo la prima componente non nulla.
+Il problema si complica e quindi serve una trasformazione tale da rendere diagonale il sistema. 
+
+Si definisce: 
+X(t) = PHI(t) * q(t)
+
++ PHI matrice dei modi
++ q(t) vettore delle incognite modali (adimensionalizzato)
+
+Risostituendo la X(t) nelle definizioni precedenti, si ottiene un sistema piú semplice disaccoppiato, in cui M' e K' sono due matrici diagonali:
+
+M_g * q_ddot(t) + K_g * q(t) = F_g 
+
+La risposta é una sovrapposizione degli effetti delle singole risposte disaccoppiate di 4 sistemi massa-molla indipendenti.
+
+## Diagramma di sollevamento delle masse (0 - 160 s) e (0 - 0.2 s)
+
++ Tra 0 e 160 s, come evidenziato dal plot, non si notano scostamenti apprezzabili tra gli andamenti delle varie masse (stage 1, stage 2, fairing e payload)
++ Tra 0 e 0.2 s l'andamento é molto simile, ma si notano oscillazioni piú sostanziali salendo man mano che si sale di stadio, fino ad un'oscillazione piú evidente per il payload
+
+## Diagramma della X_ddot(4) e di F(4)
+
++ Si osservano oscillazioni fino a 6 g per il payload, tuttavia sono stati trascurati gli smorzatori viscosi nel sistema, che ridurrebbero sostanzialmente l'ampiezza di tali oscillazioni
++ L'andamento della forza rispecchia quello dell'accelerazione, ma é riscalato di un fattore pari alla massa del payload
+
+## Power Spectral Density dell'accelerazione
+
+Rappresenta la distribuzione dell'accelerazione sul dominio delle frequenze e presenta due picchi per valori compresi tra 10 e 100
+
+# Esercitazione 3
+
+## Modello e dati iniziali
+
+blablablabla vedi traccia
+
+### Punto 1 (Frequenze naturali LE)
+
+Mettere i plot e commentarli dicendo che all'aumentare della frequenza aumenta il numero di semionde, poi c'é un caso sui generis (modo 7) in cui c'é una deformazione flessionale autoplanare. (10 immagini in tutto)
+
+### Punto 2 (Risposta Statica ad un carico di 200 N su estremo libero)
+
++ 2a) La deflessione massima (LE) rappresenta come é stato applicato il carico sulla trave (un plot)
++ 2b) Col modello LE statico a 90 deg si commentano le foto degli andamenti (simmetrici rispetto al baricentro su asse z) (due plot: sigma_yy e sigma_yz 90 statico LE)
++ 2c) Tutti i modelli TE vs LE (due plot: TE vs LE 90 statico sigma_yy e sigma yz) (aumentando il grado del polinomio approssimante si ha una distribuzione piú accurata con meno discontinuitá)
+
+### Punto 3 
+
++ Analisi termica con carico costante di 120 C al posto del carico in newton, ripetendo il punto 2 con questo valore. 
+
+    + 2a) Non c'é deflessione ma solamente dilatazione termica apprezzabile lungo l'asse longitudinale della trave
+
+        Le variazioni delle sigma sono principalmente apprezzabili sugli strati superficiali, non raggiungono quindi il cuore della trave
+    + 2b) Col modello LE
+
+    + 2c) Col modello TE
+
+
+### Punto 4 (Si ripetono gli stessi calcoli dei primi 3 punti a 45 gradi)
+
+Si nota giá che l'andamento complessivo rispecchia il caso a 90 gradi, con delle differenze dovute alla laminazione a 45 gradi (10 plot in totale + 2 immagini + 10 immagini)

@@ -970,6 +970,42 @@
         
         \section{Esercitazione 4\label{Esercitazione4}}
 
+        Lo scopo di questa esercitazione é quello di svolgere un'analisi multibody, attraverso il software \textit{MSC Adams}.
+
+        Il modello studiato rappresenta un satellite con dispiegamento dei pannelli solari, soggetto ad un'analisi cinematica e dinamica, 
+        considerando prima pannelli rigidi e poi flessibili.
+
+        \begin{itemize}
+            \item Corpi (5):
+            \begin{itemize}
+                \item Riferimento (Ground) 
+                \item Corpo del satellite in alluminio
+                \item Leva (Yoke) in acciaio
+                \item Inner Panel in alluminio
+                \item Outer Panel in alluminio
+            \end{itemize}
+            \item Giunti (4):
+            \begin{itemize}
+                \item Incastro tra corpo e ground
+                \item Cerniera tra leva e corpo
+                \item Cerniera tra pannello interno e leva
+                \item Cerniera tra pannello interno e pannello esterno
+            \end{itemize}
+            \item Leggi di moto rotatorio applicate alle cerniere (3)
+            \item Gradi di libertá (0):
+            \begin{itemize}
+                \item Formula di Greubler: $N_{GDL} = 6(N_{bodies} - Ground) - \sum N_{constraining \ equations} $
+            \end{itemize}
+        \end{itemize}
+
+        Seguendo le istruzioni fornite a lezione, si giunge al seguente risultato:
+
+        \begin{figure}[h!]
+            \centering 
+            \phantomsection \label{satellite_dispiegato}
+            \includegraphics[width=0.95\textwidth]{MUL2/Esercitazione4/satellite_dispiegato.eps}
+            \caption{Satellite coi pannelli dispiegati}
+        \end{figure}
 
 
 

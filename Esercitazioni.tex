@@ -644,8 +644,156 @@
                 \caption{Piastra incastrata ad una delle estremitá}
             \end{figure}
 
+        Lo scopo di questa esercitazione é lo svolgimento di un'analisi FEM di una piastra incastrata su uno 
+        dei lati corti, di cui si valuteranno i risultati ottenuti.
+
+            \subsection{Dati\label{Esercitazione3_dati}}
+
+            \begin{itemize}
+                \item $Dim = \left\{1, \ 0.2, \ 0.006 \right\} \ m $
+                \item $\alpha_{layers} = \left\{0, \ 90, \ 0 \right\} \ \deg \  \wedge \  \left\{0, \ 45, \ 0 \right\} \ \deg$
+                \item $t_{single \ layer} = 0.002 \ m$
+                \item $\vec{E}_{1\rightarrow 3} = \left\{138, \ 9.5, \ 9.5\right\} \ GPa $
+                \item $\vec{G} = \left\{G_{12}, \ G_{13}, \ G_{23}\right\} = \left\{5.2, \ 5.2, \ 1.45\right\} \ GPa$
+                \item $\vec{\nu } = \left\{\nu_{12}, \ \nu_{13}, \ \nu_{23}\right\} = \left\{0.28, \ 0.28, \ 0.4\right\}$
+                \item $\rho = 1570 \frac{kg}{m^3}$ (Materiale omogeneo e ad alto grado di ortotropia)
+            \end{itemize}
+
+            \clearpage
+
+            \subsection{Frequenze naturali e modi propri di vibrare \label{Esercitazione3_freq_nat}}
+
+            Tramite uno script in Fortran fornito a lezione \autocite{MUL2}, che utilizza vari file di input testuale, \
+            si calcolano le prime dieci frequenze naturali della struttura. \\ 
+
+            L'algoritmo in questo caso utilizzato implementa una discretizzazione in 31 nodi indipendenti (10 elementi con 4 nodi longitudinali, 9 nodi trasversali per layer, 
+            6 nodi condivisi tra strati adiacenti), sfruttando un'analisi \textit{layer wise} con modello LE (lagrangiano).
+
+            \subsubsection{Laminazione a 90 gradi \label{Esercitazione3_freq_nat_90}}
+
+                \begin{table}[h!]
+                    \centering
+                    \begin{tabular}{@{}ll@{}}
+                    \toprule
+                    $f_1$    & 0.894014303E+01  \ Hz \ (flex) \\
+                    $f_2$    & 0.323353291E+02  \ Hz \ (torque) \\
+                    $f_3$    & 0.558631886E+02  \ Hz \ (flex) \\
+                    $f_4$    & 0.108330254E+03  \ Hz \ (torque) \\
+                    $f_5$    & 0.155727004E+03  \ Hz \ (flex) \\
+                    $f_6$    & 0.215825295E+03  \ Hz \ (torque) \\
+                    $f_7$    & 0.220986476E+03  \ Hz \ (flex) \\
+                    $f_8$    & 0.303227073E+03  \ Hz \ (flex) \\
+                    $f_9$    & 0.365244247E+03  \ Hz \ (flex) \\
+                    $f_{10}$ & 0.497030995E+03  \ Hz \ (torque) \\ \bottomrule
+                \end{tabular}
+                \caption{Frequenze naturali}
+                \label{tab:freq_nat}
+                \end{table}
+            
+            In seguito, con il software open-source \textit{Paraview} \autocite{Paraview}, estremamente versatile nel postprocessing dei dati, 
+            sono state visualizzate le deformazioni dovute ai dieci modi propri di vibrare, di seguito riportati 
+            (in ordine, prima tutti i gradi flessionali e poi quelli torsionali). 
+
+            \clearpage
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:freq_nat_flex_90}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6.eps}
+                \caption{Modi propri di vibrare flessionali, laminazione a $90^\circ$}
+            \end{figure}
+
+            Si puó immediatamente notare che, all'aumentare del numero d'ordine di frequenza naturale, 
+            si ha un aumento del numero di semionde di flessione.
+
+            Fa eccezione il grado a cui corrisponde la frequenza $f_7$, per la quale si verifica una deflessione planare.
+
+            \clearpage
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:freq_nat_torque_90}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4.eps}
+                \caption{Modi propri di vibrare torsionali, laminazione a $90^\circ$}
+            \end{figure}
+
+            Analogamente a quanto visto per i modi di vibrare flessionali, si riscontra un aumento di semionde anche 
+            nel caso relativo alla torsione.
+
+            \clearpage
+
+            \subsubsection{Laminazione a 45 gradi \label{Esercitazione3_freq_nat_45}}
+
+            \begin{table}[h!]
+                \centering
+                \begin{tabular}{@{}ll@{}}
+                \toprule
+                $f_1$    & 0.896269770E+01  \ Hz \ (flex) \\
+                $f_2$    & 0.347435712E+02  \ Hz \ (torque) \\
+                $f_3$    & 0.559455115E+02  \ Hz \ (flex) \\
+                $f_4$    & 0.114966962E+03  \ Hz \ (torque) \\
+                $f_5$    & 0.155772133E+03  \ Hz \ (flex) \\
+                $f_6$    & 0.224831941E+03  \ Hz \ (torque) \\
+                $f_7$    & 0.237404462E+03  \ Hz \ (flex) \\
+                $f_8$    & 0.302721670E+03  \ Hz \ (flex) \\
+                $f_9$    & 0.374516568E+03  \ Hz \ (flex) \\
+                $f_{10}$ & 0.497551402E+03  \ Hz \ (torque) \\ \bottomrule
+            \end{tabular}
+            \caption{Frequenze naturali}
+            \label{tab:freq_nat_45}
+            \end{table}
+        
+        Come fatto prima si visualizzano le deformazioni con \textit{Paraview} \autocite{Paraview}. 
+
+        \clearpage
+
+        \begin{figure}[h!]
+            \phantomsection \label{fig:freq_nat_flex_45}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45.eps}
+            \caption{Modi propri di vibrare flessionali, laminazione a $45^\circ$}
+        \end{figure}
+
+        Le considerazioni in merito alle semionde fatte per il caso a 90 gradi valgono anche cambiando la laminazione.
+
+        Si puó peró notare che gli effetti della laminazione a 45 gradi tendono a far ripiegare la piastra
+        su sé stessa, lungo l'asse longitudinale e l'effetto diventa man mano piú visibile con l'aumentare del grado di 
+        frequenza propria.
+
+        \clearpage
+
+        \begin{figure}[h!]
+            \phantomsection \label{fig:freq_nat_torque_45}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45.eps}
+            \caption{Modi propri di vibrare torsionali, laminazione a $45^\circ$}
+        \end{figure}
+
+        Quanto detto per la laminazione a 90 gradi rimane valido e, come giá messo in evidenza poc'anzi, 
+        la laminazione a 45 gradi causa un crescente ripiegamento lungo l'asse longitudinale, tuttavia piú visibile
+        nei gradi flessionali.
+
+        
         
 
+            \clearpage
+
+            \subsection{Deflessione massima con carico di 200 N}
+
+
+                
         \clearpage
         \printbibliography
 \end{document}

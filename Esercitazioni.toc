@@ -15,3 +15,8 @@
 \contentsline {subsection}{\numberline {2.5}Accelerazione e carico trasmessi al payload}{20}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Power Spectral Density dell'accelerazione}{21}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Esercitazione 3 }{22}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dati}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Frequenze naturali e modi propri di vibrare }{23}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Laminazione a 90 gradi }{23}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Laminazione a 45 gradi }{26}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Deflessione massima con carico di 200 N}{29}{subsection.3.3}%

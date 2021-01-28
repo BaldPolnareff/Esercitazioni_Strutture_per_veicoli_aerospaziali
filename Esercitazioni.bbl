@@ -86,6 +86,13 @@
       \field{note}{Accessed on 2020-15-11}
       \field{title}{MUL2}
     \endentry
+    \entry{Paraview}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.paraview.org/}}
+      \field{title}{Paraview}
+    \endentry
     \entry{Inkscape}{misc}{}
       \name{author}{1}{}{%
         {{hash=b6376cab05e82f18f4779e535e95f621}{%

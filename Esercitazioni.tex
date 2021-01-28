@@ -790,7 +790,187 @@
 
             \clearpage
 
-            \subsection{Deflessione massima con carico di 200 N}
+            \subsection{Analisi Statica: displacement massimo \label{displacement_massimo}}
+
+            Supponendo un carico di 200 N, agente ortogonalmente sull'estremo libero della piastra, si visualizza il massimo displacement
+            lungo l'asse z, calcolato dallo script in Fotran menzionato nella sezione \ref{Esercitazione3_freq_nat}, con modello LE.
+
+            Anche i dati di riferimento per le successive analisi statiche e termiche sono output dello stesso script, per il quale vengono opportunamente
+            modificati i file di input.
+
+            \subsubsection{Laminazione a 90 gradi \label{displacement_massimo_90}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:displacement_90}
+                \centering
+                \includegraphics[width=0.7\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90.eps}
+                \caption{Displacement massimo, pari a $1.4 \cdot 10^{-1} \ m$}
+            \end{figure}
+
+
+            \subsubsection{Laminazione a 45 gradi \label{displacement_massimo_45}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:displacement_45}
+                \centering
+                \includegraphics[width=0.7\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45.eps}
+                \caption{Displacement massimo, pari a $1.4 \cdot 10^{-1} \ m$}
+            \end{figure}
+
+            \clearpage
+
+            \subsection{Analisi statica: distribuzione degli stress \label{statica_stress}}
+
+            Attraverso uno script in \textit{Octave} \autocite{Octave}, disponibile sul repository di questo report \autocite{Esercitazioni_strutture}
+            col nome di \textit{Plot\_sigmas.m}, tutti gli stress richiesti, ottenuti come output dell'analisi statica e dell'analisi termica (per laminazione a 90 e 45 gradi)
+            vengono plottati lungo lo spessore z in corrispondenza del baricentro, prestando attenzione alla differenza tra il modello lagrangiano LE
+            e il modello di Taylor TE, quest'ultimo iterato dal primo fino al sesto grado del polinomio approssimante.
+
+            \subsubsection{Laminazione a 90 gradi\label{statica_stress_90}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:sigmas_static_90}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg.eps}
+                \caption{Sigma YY e Sigma YZ, modelli LE e TE a confronto}
+            \end{figure}
+
+            Si notano delle discontinuitá (di varia entitá a seconda dello stress e del modello considerato) lungo lo spessore,
+            in prossimitá del baricentro, poiché la lamina centrale ha un orientamento diverso, per cui la piastra presenta rigidezze
+            diverse nella stessa direzione. Inoltre, per quanto riguarda la $\sigma_{yy}$, il risultato di tutti i modelli
+            é praticamente coincidente, per cui un'approssimazione al primo ordine ha giá la massima accuratezza desiderabile.
+            Invece, per quanto riguarda la $\sigma_{yz}$, la precisione aumenta con l'incremento di grado del polinomio, tendendo
+            man mano all'andamento del metodo lagrangiano. Si evidenzia infine un'inversione al centro della piastra,
+            dovuta alla laminazione.
+
+            \clearpage 
+
+            \subsubsection{Laminazione a 45 gradi\label{statica_stress_45}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:sigmas_static_45}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg.eps}
+                \caption{Sigma YY e Sigma YZ, modelli LE e TE a confronto}
+            \end{figure}
+
+            Rispetto alla laminazione a 90 gradi, sebbene gli andamenti siano generalmente simili, si evidenzia in 
+            $\sigma_{yy}$ un leggero discostamento dal modello LE, apprezzabile solo per quanto riguarda il polinomio di primo grado.
+
+            L'andamento di $\sigma_{yz}$ rispecchia in buona parte il precedente, con una magnitudine peró inferiore nell'intorno
+            del baricentro e con un'inversione solo nel polinomio di sesto grado.
+
+            \clearpage
+
+
+            \subsection{Analisi Termica: displacement massimo \label{displacement_massimo_thermal}}
+
+            Si procede con un'analisi termica, con la stessa procedura vista per l'analisi statica. Tuttavia,
+            si utilizza questa volta un carico termico pari a 120 C. 
+
+            \subsubsection{Laminazione a 90 gradi \label{displacement_massimo_90_thermal}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:displacement_90_thermal}
+                \centering
+                \includegraphics[width=0.7\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90.eps}
+                \caption{Displacement massimo, pari a $1.4 \cdot 10^{-1} \ m$}
+            \end{figure}
+
+
+            \subsubsection{Laminazione a 45 gradi \label{displacement_massimo_45_thermal}}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:displacement_45_thermal}
+                \centering
+                \includegraphics[width=0.7\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45.eps}
+                \caption{Displacement massimo, pari a $1.4 \cdot 10^{-1} \ m$}
+            \end{figure}
+
+            A differenza dell'analisi statica, non si ha un displacement lungo z, ma solo una dilatazione volumica dovuta
+            al carico termico, apprezzabile come displacement massimo lungo y.
+
+            La laminazione a 45 gradi fa sí che la dilatazione si sviluppi comunque in maniera preponderante lungo y, 
+            ma con una una deviazione planare lungo l'asse x.
+
+            \clearpage
+
+            \subsection{Analisi Termica: distribuzione degli stress \label{termica_stress}}
+
+            Si analizzano in questo caso gli stress normali $\sigma_{xx}$, $\sigma_{yy}$, $\sigma_{zz}$.
+
+            \subsubsection{Laminazione a 90 gradi\label{termica_stress_90}}
+
+            \begin{figure}[h!]
+                \centering
+                \phantomsection \label{fig:sigmas_thermal_90}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg.eps}
+                \caption{Sigma XX, Sigma YY e Sigma ZZ, modelli LE e TE a confronto}
+            \end{figure}
+
+            A conferma di quanto giá visto in sezione \ref{displacement_massimo_thermal}, lo stress $\sigma_{yy}$
+            é piú grande degli altri di ben due ordini di grandezza, dato che la direzione y e quella piú sollecitata.
+
+            Inoltre, analogamente a quanto visto per l'analisi statica, la laminazione a 90 gradi fa sí che il layer 
+            centrale presenti, nell'intorno del baricentro, un picco negativo di sollecitazione, dovuto all'orientamento delle fibre. \\ 
+
+            Infine, le considerazioni fatte per l'analisi statica e il confronto tra i modelli TE ed LE valgono anche per l'analisi termica.
+            
+            All'aumentare del grado del polinomio approssimante del modello di Taylor, si ha un andamento man mano piú fedele a quello ottenuto 
+            col modello lagrangiano, in cui, per $\sigma_{xx}$, solo il sesto grado riesce ad approssimare con discreta accuratezza
+            l'avvallamento centrale.
+
+            
+        
+
+            \clearpage 
+
+            \subsubsection{Laminazione a 45 gradi\label{termica_stress_45}}
+
+            \begin{figure}[h!]
+                \centering
+                \phantomsection \label{fig:sigmas_thermal_45}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg.eps}
+                \includegraphics[width=0.3\textwidth]{MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg.eps}
+                \caption{Sigma XX, Sigma YY e Sigma ZZ, modelli LE e TE a confronto}
+            \end{figure}
+
+            La laminazione a 45 gradi, in questo caso, produce degli effetti abbastanza visibili sull'andamento 
+            degli stress normali. 
+
+            In primo luogo, sebbene l'andamento di $\sigma_{yy}$ e $\sigma_{zz}$ siano comparabili con quelli della laminazione a 90 gradi, si nota immediatamente che 
+            $\sigma_{xx}$ ha un andamento sostanzialmente diverso, oltretutto con picchi piú grandi di un ordine di grandezza. 
+
+            Questo andamento é coerente con quanto osservato in sezione \ref{displacement_massimo_45_thermal}, dato che rispetto alla laminazione
+            a 90 gradi, si ha una deviazione verso l'asse x, nel primo caso del tutto assente, come visibile in \ref{displacement_massimo_90_thermal}. \\ 
+
+            Infine, continua a valere la migliore approssimazione dell'andamento lagrangiano da parte di polinomi di Taylor 
+            di grado piú elevato.
+
+            Tuttavia, si osserva come, nel caso di $\sigma_{xx}$ e $\sigma_{yy}$, l'approssimazione del polinomio di primo grado
+            sia molto grossolana, con quasi un ordine di grandezza di errore, mentre i gradi dal secondo in poi si avvicinano in maniera
+            molto precisa all'andamento target.
+            
+
+
+            \clearpage            
+        
+        \section{Esercitazione 4\label{Esercitazione4}}
+
+        
 
 
                 

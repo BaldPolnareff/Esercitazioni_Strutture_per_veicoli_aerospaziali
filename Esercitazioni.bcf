@@ -2195,6 +2195,8 @@
     <bcf:citekey order="11">MUL2</bcf:citekey>
     <bcf:citekey order="12">Paraview</bcf:citekey>
     <bcf:citekey order="13">Paraview</bcf:citekey>
+    <bcf:citekey order="14">Octave</bcf:citekey>
+    <bcf:citekey order="15">Esercitazioni_strutture</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

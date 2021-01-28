@@ -19,4 +19,16 @@
 \contentsline {subsection}{\numberline {3.2}Frequenze naturali e modi propri di vibrare }{23}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Laminazione a 90 gradi }{23}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Laminazione a 45 gradi }{26}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Deflessione massima con carico di 200 N}{29}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Analisi Statica: displacement massimo }{29}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Laminazione a 90 gradi }{29}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Laminazione a 45 gradi }{29}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Analisi statica: distribuzione degli stress }{30}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Laminazione a 90 gradi}{30}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Laminazione a 45 gradi}{31}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Analisi Termica: displacement massimo }{32}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Laminazione a 90 gradi }{32}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Laminazione a 45 gradi }{32}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Analisi Termica: distribuzione degli stress }{33}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Laminazione a 90 gradi}{33}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Laminazione a 45 gradi}{34}{subsubsection.3.6.2}%
+\contentsline {section}{\numberline {4}Esercitazione 4}{35}{section.4}%

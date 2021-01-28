@@ -2185,10 +2185,13 @@
     <bcf:citekey order="1">MUL2</bcf:citekey>
     <bcf:citekey order="2">gnuplot</bcf:citekey>
     <bcf:citekey order="3">Inkscape</bcf:citekey>
-    <bcf:citekey order="4">Inkscape</bcf:citekey>
-    <bcf:citekey order="5">UPM_sat1</bcf:citekey>
+    <bcf:citekey order="4">UPM_sat1</bcf:citekey>
+    <bcf:citekey order="5">Inkscape</bcf:citekey>
     <bcf:citekey order="6">Inkscape</bcf:citekey>
-    <bcf:citekey order="7">Inkscape</bcf:citekey>
+    <bcf:citekey order="7">Octave</bcf:citekey>
+    <bcf:citekey order="8">Esercitazioni_strutture</bcf:citekey>
+    <bcf:citekey order="9">Esercitazioni_strutture</bcf:citekey>
+    <bcf:citekey order="10">Esercitazioni_strutture</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

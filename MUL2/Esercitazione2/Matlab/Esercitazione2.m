@@ -98,7 +98,7 @@ for i = 1:4
 end
 
 legend('Stage 1','Stage 2','Fairing','Payload','Location','NorthWest')
-ylabel('Displacement [km]')
+ylabel('Displacement [m]')
 xlabel('Time [s]')
 title('Displacement over 0.2 seconds')
 
@@ -122,7 +122,7 @@ for i = 1:4
 end
 
 legend('Stage 1','Stage 2','Fairing','Payload','Location','NorthWest')
-ylabel('Displacement [km]')
+ylabel('Displacement [m]')
 xlabel('Time [s]')
 title('Displacement over 160 seconds')
 
@@ -155,13 +155,23 @@ ylabel('Acceleration (g)')
 title('Acceleration')
 grid on
 
+
+
 %% Forza trasmessa al payload
 
 F_final = M * X_mid_ddot / 1e3;     %[kN]
 
+%figure ()
+%plot(t_end_mid, F_final, 'linewidth', 1.5, t_end_mid, F_final(4, :), 'linewidth', 4 )            
+%legend("Stage 1", "Stage 2", "Fairing", "Payload", 'location', 'northeast')
+%xlabel('Time [s]')
+%ylabel('Load [kN]')
+%title('Load')
+%grid on
+
 figure ()
-plot(t_end_mid, F_final, 'linewidth', 1.5, t_end_mid, F_final(4, :), 'linewidth', 4 )            
-legend("Stage 1", "Stage 2", "Fairing", "Payload", 'location', 'northeast')
+plot(t_end_mid, F_final(4, :), 'linewidth', 4) 
+legend("Payload", 'location', 'northeast')
 xlabel('Time [s]')
 ylabel('Load [kN]')
 title('Load')
@@ -177,4 +187,4 @@ loglog(freq, Pxx / gravity ^2, 'linewidth', 2.5)
 xlabel('Frequency [Hz]')
 title('Power Spectral Density')
 
-X_rms = sqrt(trapz(freq,Pxx));
+X_rms = sqrt(trapz(freq, Pxx));

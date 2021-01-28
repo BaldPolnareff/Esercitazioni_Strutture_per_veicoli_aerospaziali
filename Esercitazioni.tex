@@ -105,57 +105,6 @@
 
 
 
-    \clearpage
-
-        \subsection{Esempio}
-        Il caso esaminato é quello dell'Esempio 2, i cui dati sono quelli
-        forniti di default nel file \textit{input.dat} .\\
-        La configurazione in esame consiste in due camere comunicanti attraverso
-        una ventilazione passiva, con un breach sull'ambiente esterno. 
-        \begin{figure}[h!]
-            \centering
-            \phantomsection
-            \label{fig:Esempio_2}
-            \includegraphics[width=0.7\textwidth]{ES1_Esempio2.eps}
-            \caption{Esempio 2 (Disegnato con \textit{Inkscape} \autocite{Inkscape})}
-        \end{figure}
-
-        \subsubsection{DATI}
-        \begin{itemize}
-            \item $\displaystyle T_0 = -10\,°C;$ \
-            \item $\displaystyle T_{c0} = 23\,°C;$ \
-            \item $\displaystyle p_0 = 62.8812\,kPa;$ \
-            \item $\displaystyle p_{c0} = 117.0162\,kPa;$ \
-            \item $\displaystyle V_{C1} = 4\,m^3;$ \
-            \item $\displaystyle V_{C2} = 16\,m^3;$ \
-            \item $\displaystyle A_{1-0} = 0.2\,m^2;$ \
-            \item $\displaystyle A_{1-2} = 0.5\,m^2;$ \
-            \item $\displaystyle CD_{1-0} = 0.8;$ \
-            \item $\displaystyle CD_{1-2} = 0.7;$ \
-        \end{itemize}
-        \clearpage
-
-        \subsubsection{RISULTATI}
-        
-        Sono riportati i grafici ottenuti plottando i file di output
-        generati dallo script.
-        \begin{figure}[h!]
-            \centering
-            \phantomsection
-            \label{fig:press_cam_ex}
-            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1A/p.eps}
-            \caption{Pressioni di entrambe le camere nel tempo}
-        \end{figure}
-
-        \begin{figure}[h!]
-            \centering
-            \phantomsection
-            \label{fig:grad_cam_ex}
-            \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1A/Dp.eps}
-            \caption{Gradiente di pressione tra le due camere}
-        \end{figure}
-
-
         \clearpage
         \subsection{Esercizio 1\label{Es1}} 
 
@@ -245,7 +194,7 @@
             \phantomsection
             \label{fig:press_cam_0}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1A/p.eps}
-            \caption{Pressioni di entrambe le camere nel tempo}
+            \caption{Pressioni di entrambe le camere nel tempo, $t_{dec} = 3.28250 \ s$}
         \end{figure}
 
         \begin{figure}[h!]
@@ -253,7 +202,7 @@
             \phantomsection
             \label{fig:grad_cam_0}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1A/Dp.eps}
-            \caption{Gradiente di pressione tra le due camere}
+            \caption{Gradiente di pressione tra le due camere, $t_{dec} = 3.28250 \ s$}
         \end{figure}
         \clearpage
         
@@ -262,7 +211,7 @@
             \phantomsection
             \label{fig:press_cam_0.5}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1B/p.eps}
-            \caption{Pressioni di entrambe le camere nel tempo}
+            \caption{Pressioni di entrambe le camere nel tempo, $t_{dec} = 2.62989 \ s$}
         \end{figure}
 
         \begin{figure}[h!]
@@ -270,7 +219,7 @@
             \phantomsection
             \label{fig:grad_cam_0.5}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1B/Dp.eps}
-            \caption{Gradiente di pressione tra le due camere}
+            \caption{Gradiente di pressione tra le due camere, $t_{dec} = 2.62989 \ s$}
         \end{figure}
         \clearpage
 
@@ -279,7 +228,7 @@
             \phantomsection
             \label{fig:press_cam_1}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1C/p.eps}
-            \caption{Pressioni di entrambe le camere nel tempo}
+            \caption{Pressioni di entrambe le camere nel tempo, $t_{dec} = 2.42283 \ s$}
         \end{figure}
 
         \begin{figure}[h!]
@@ -287,14 +236,14 @@
             \phantomsection
             \label{fig:grad_cam_1}
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/1C/Dp.eps}
-            \caption{Gradiente di pressione tra le due camere}
+            \caption{Gradiente di pressione tra le due camere, $t_{dec} = 2.42283 \ s$}
         \end{figure}
         \clearpage
 
         \subsection{Esercizio 2\label{Es2}}
 
         Viene presa in analisi la depressurizzazione dell'\textit{UPM-Sat1} 
-        \autocite{UPM_sat1}, in un tempo di 225 s. \\ 
+        \autocite{UPM_sat1}, in un tempo massimo di 225 s. \\ 
 
         \begin{figure}[h!]
             \centering
@@ -339,7 +288,7 @@
             \includegraphics[width=0.5\textwidth, angle=-90]{MUL2/Esercitazione1/2A/p.eps}
             \phantomsection
             \label{fig:press_10_5}
-            \caption{Andamento delle pressioni} 
+            \caption{Andamento delle pressioni, $t_{subcritico} = 225.001  \ s$} 
         \end{figure}
 
         \begin{figure}[h!]
@@ -347,7 +296,7 @@
             \includegraphics[width=0.5\textwidth, angle=-90]{MUL2/Esercitazione1/2A/Dp.eps}
             \phantomsection
             \label{fig:grad_press_10_5}
-            \caption{Andamento del gradiente di pressione}
+            \caption{Andamento del gradiente di pressione, $t_{subcritico} = 225.001  \ s$}
         \end{figure}
 
 
@@ -358,7 +307,7 @@
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/2B/p.eps}
             \phantomsection
             \label{fig:press_10_6}
-            \caption{Andamento delle pressioni} 
+            \caption{Andamento delle pressioni, $t_{subcritico} = 145.106  \ s$} 
         \end{figure}
 
         \begin{figure}[h!]
@@ -366,7 +315,7 @@
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/2B/Dp.eps}
             \phantomsection
             \label{fig:grad_press_10_6}
-            \caption{Andamento del gradiente di pressione}
+            \caption{Andamento del gradiente di pressione, $t_{subcritico} = 145.106  \ s$}
         \end{figure}
         \clearpage
 
@@ -375,7 +324,7 @@
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/2C/p.eps}
             \phantomsection
             \label{fig:press_10_7} 
-            \caption{Andamento delle pressioni}
+            \caption{Andamento delle pressioni, $t_{subcritico} = 69.735  \ s$}
         \end{figure}
         
         \begin{figure}[h!] 
@@ -383,7 +332,7 @@
             \includegraphics[width=0.6\textwidth, angle=-90]{MUL2/Esercitazione1/2C/Dp.eps}
             \phantomsection
             \label{fig:grad_press_10_7}
-            \caption{Andamento del gradiente di pressione}
+            \caption{Andamento del gradiente di pressione, $t_{subcritico} = 69.735  \ s$}
         \end{figure}
 
         \clearpage
@@ -451,7 +400,13 @@
         \clearpage
         \section{Esercitazione 2\label{Esercitazione_2}}
 
-        Testo blablabla
+        Lo scopo di questa esercitazione é l'analisi modale di un sistema a quattro gradi di libertá,
+        composto da quattro masse discretizzate, rappresentanti i due stage, il faring ed il payload 
+        di un lanciatore che ricalca il \textit{Falcon 9}. Le varie masse sono connesse da molle e smorzatori viscosi, questi
+        ultimi trascurati per semplificare il modello matematico.
+
+        Inoltre, la spinta nei primi 160 secondi é ipotizzata costante, utilizzando
+        un modello con carico a gradino.
 
         \begin{figure}[h!]
             \centering
@@ -461,23 +416,235 @@
             \caption{Lanciatore (Disegnato con \textit{Inkscape} \autocite{Inkscape})}
         \end{figure}
 
+        \subsection{Dati\label{Esercitazione_2_dati}}
 
-        \begin{tikzpicture}[h!]
-            \centering
-            \begin{axis}[
-                title=hi,
-               
-                colormap/cool,
-            ]
-            \addplot3[
-                mesh,
-                samples=50,
-                domain=-8:8,
-            ]
-            {sin(deg(sqrt(x^2+y^2)))/sqrt(x^2+y^2)};
-            \addlegendentry{$\frac{sin(r)}{r}$}
-            \end{axis}
-            \end{tikzpicture}
+        \begin{itemize}
+            \item $m_{1\rightarrow 4} = \left\{445, \ 116, \ 2, \ 15\right\} \cdot 10^3 \ kg  $
+            \item $k_{1\rightarrow 3} = \left\{5, \ 5, \ 1 \right\} \cdot 10^8 \frac{N}{m} $
+            \item $c_{1\rightarrow 3} \approx \left\{0, \ 0, \ 0 \right\}$
+            \item $F_0 = 775 \cdot 10^3 \ kg_f$
+            \item $t_{launch} = 160 \ s$
+        \end{itemize}
+        \clearpage
+
+        \subsection{Frequenze naturali e modi propri di vibrare\label{Esercitazione_2_modi}}
+
+        Si considera inizialmente un sistema con equazioni di equilibrio accoppiate, in forma omogenea, ossia con vettore
+        delle forze applicate nullo. In notazione matriciale: 
+
+            \begin{equation}
+                \phantomsection \label{equation:sist_omogeneo}
+                M\ddot{x} + Kx(t) = 0
+            \end{equation}
+        dove M e K sono rispettivamente le matrici delle masse concentrate e di rigidezza, cosí definite:
+        \begin{center}  
+            \[
+            \begin{pmatrix}
+                m_1    & 0    & 0     & 0 \\ 
+                0      & m_2  & 0     & 0 \\
+                0      & 0    & m_3   & 0 \\
+                0      & 0    & 0     & m_4 
+                
+            \end{pmatrix}
+            \]
+            \\ 
+            \[
+            \begin{pmatrix}
+                k_1    & -k_1       & 0                     & 0 \\ 
+                -k_1   & k_1 + k_2  & -k_2                  & 0 \\
+                0      & -k_2       & k_2 + k_3             & -k_3 \\
+                0      & 0          & -k_3                  & k_3 
+                
+            \end{pmatrix}
+            \]
+            
+        \end{center}    
+    
+        La soluzione omogenea é chiaramente un \textit{moto armonico}, non smorzato e privo di forzante.
+        Rappresenta un classico problema agli autovalori, risolto in uno script su \textit{Octave} \autocite{Octave}, disponibile 
+        nel repository di questo report \autocite{Esercitazioni_strutture}, col nome di \textit{Esercitazione2.m} e comprendente
+        la risoluzione del resto di questa esercitazione.
+
+        Oltre alla soluzione banale, si ottiene il vettore degli autovalori, da cui sono ricavate le pulsazioni e
+        le frequenze naturali del sistema, oltre alla matrice contenente tutti e quattro i vettori modali in colonna.
+
+        \begin{equation}
+            \phantomsection \label{equation:puls_nat}
+            \vec{\omega}_n  = \left[0.0000, \ 63.2520, \ 87.4808, \ 552.0482 \right] \ rad \cdot s^{-1} 
+        \end{equation}
+
+        \begin{equation}
+            \phantomsection \label{equation:freq_nat}
+            \vec{f}_n  = \left[0.0000, \ 10.0669, \ 13.9230, \ 87.8612 \right] \ Hz 
+        \end{equation}
+
+        \begin{equation}
+            \phantomsection \label{equation:matrice_modale}
+         \Phi = \begin{pmatrix}
+                   0.0013   & -0.0006       & -0.0004             &  0.0000     \\ 
+                   0.0013   & 0.0016        &  0.0021             &  0.0003     \\
+                   0.0013   & 0.0023        &  0.0008             & -0.0222    \\
+                   0.0013   & 0.0059        & -0.0055             &  0.0005
+                \end{pmatrix} 
+        \end{equation}
+
+        \clearpage
+
+        \subsection{Grandezze generalizzate\label{Esercitazione_2_grandezze_generalizzate}}
+
+        Si passa quindi alla risoluzione del sistema completo, utilizzando questa volta 
+        le incognite modali, che permettono di riscrivere il sistema con delle grandezze generalizzate.
+        
+        Vale la relazione $x(t) = \phi q(t)$, per cui il sistema risulta:
+
+        \begin{equation}
+            \phantomsection \label{equation:sistema_generalizzato}
+            M_g \ddot{q}(t) + K_g q(t) = F_g
+        \end{equation}
+
+        in cui $M_g \ , \ K_g \ e \ F_g$ sono rispettivamente la matrice delle masse, la matrice delle rigidezze
+        ed il vettore delle forze applicate in forma generalizzata. \\ 
+
+        Tali grandezze sono quindi calcolate dallo script \autocite{Esercitazioni_strutture} e sono pari a:
+
+            \begin{equation}
+                \phantomsection \label{equation:masse_generalizzate}
+                M_g = 
+                \begin{pmatrix}
+                   1        & 0             &  0             &  0     \\ 
+                   0        & 1             &  0             &  0     \\
+                   0        & 0             &  1             &  0    \\
+                   0        & 0             &  0             &  1
+                \end{pmatrix} kg
+            \end{equation} \\ 
+
+
+            \begin{equation}
+                \phantomsection \label{equation:rigidezze_generalizzate}
+                K_g = 
+                \begin{pmatrix}
+                   0        & 0             &  0             &  0     \\ 
+                   0        & 0.0400        &  0             &  0     \\
+                   0        & 0             &  0.0765        &  0     \\
+                   0        & 0             &  0             &  3.0476
+                \end{pmatrix} \cdot 10^5 \ \frac{N}{m}
+            \end{equation} \\ 
+
+
+            \begin{equation}
+                \phantomsection \label{equation:forze_generalizzate}
+                F_g = 
+                \begin{pmatrix}
+                   1             \\ 
+                  -0.4762        \\
+                  -0.2686        \\
+                  -0.009        
+                \end{pmatrix} \cdot 10^4 \ N
+            \end{equation}
+
+        La matrice delle masse generalizzate coincide con la matrice identitá, per cui l'algoritmo
+        utilizzato dalla funzione \textit{eig(K, M)} garantisce degli autovettori M-normalizzati.
+
+        A questo punto, il sistema di equazioni accoppiate a quattro gradi di libertá é scorporato in quattro equazioni armoniche
+        indipendenti ad un grado di libertá, grazie al principio di sovrapposizione. 
+        
+        In questo modo, 
+        la risoluzione viene notevolmente semplificata, pur utilizzando un sistema del tutto equivalente
+        a quello di partenza. 
+
+        \clearpage
+
+        \subsection{Calcolo dei displacement verticali delle quattro masse\label{Esercitazione_2_displacement}}
+
+        Sempre attraverso lo stesso script \autocite{Esercitazioni_strutture}, vengono calcolate le quattro componenti
+        del vettore displacement $\vec{x}(t)$, a partire dal vettore modale $\vec{q}(t)$.
+
+        Data la natura semplificata del problema, si ricavano facilmente due soluzioni analitiche per la prima e per le restanti componenti:
+
+            \begin{equation}
+                \phantomsection \label{equation:q1}
+                q_1 = \frac{F_{g1}}{2M_{g1}} \ t^2
+            \end{equation}
+
+            \begin{equation}
+                \phantomsection \label{equation:q1}
+                q_i = \frac{F_{g_i}}{K_{g_i}} \ \left[1 - cos\left(\omega_{n_i} t\right) \right] 
+            \end{equation}
+
+        Viene quindi plottato l'andamento del vettore nel tempo:
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:displacement_x}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione2/Matlab/disp_160.eps}
+                \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione2/Matlab/disp_0.2.eps}
+                \caption{Displacement per 160 s e per 0.2 s}
+            \end{figure}
+        
+        Si puó notare come, su un tempo sufficientemente lungo, l'andamento delle quattro masse sia praticamente coincidente.
+        Per la durata molto breve del lift-off, invece, si nota che l'andamento delle varie parti 
+        si discosta leggermente, con particolare enfasi per il payload, che subisce delle oscillazioni particolarmente
+        evidenti, motivo per cui é necessario studiare accuratamente in fase progettuale questo transitorio, 
+        onde evitare potenziali danni ad attrezzature estremamente costose e spesso molto soggette a starature, se sottoposte a variazioni
+        repentine di questo tipo.
+
+        \clearpage
+
+        \subsection{Accelerazione e carico trasmessi al payload\label{Esercitazione_2_acc_load}}
+
+        In virtú di quanto detto in sezione \ref{Esercitazione_2_displacement}, si calcolano anche i 
+        vettori accelerazione e carico tra 0 e 2 secondi, con particolare attenzione all'andamento del payload.
+
+        \begin{figure}[h!]
+            \phantomsection \label{fig:acc_load}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione2/Matlab/acceleration.eps}
+            \includegraphics[width=0.5\textwidth]{MUL2/Esercitazione2/Matlab/load.eps}
+            \caption{Accelerazioni e carico sul payload, tra 0 e 2 s}
+        \end{figure}
+
+        Come detto in precedenza, il payload é spesso molto sensibile a oscillazioni cosí notevoli di 
+        accelerazioni (e dei carichi che ne derivano, ottenuti riscalando le accelerazioni per un fattore pari alla massa), 
+        specie nel caso di payload ottici. 
+
+        Si possono osservare picchi estremamente alti, fino a 6g, che dovrebbero essere assolutamente ridotti
+        in fase di progettazione, tenendo anche in considerazione che é necessario ideare un sistema
+        posizionamento ed ancoraggio del payload ottimale. \\ 
+
+        Va peró tenuto a mente che il problema é stato notevolmente semplificato, proprio a partire da un'assunzione
+        estremamente forte, ossia la rimozione dei coefficienti di smorzamento viscoso.
+
+        Naturalmente, in una situazione piú realistica, la presenza di meccanismi assimilabili a smorzatori 
+        é assolutamente d'obbligo, per cui le forti oscillazioni osservate finora sono senz'altro una grossa
+        sovrastima, dato che verrebbero smorzate in maniera efficiente, in un progetto reale.
+
+        \clearpage
+        
+        \subsection{Power Spectral Density dell'accelerazione\label{Esercitazione_2_PSD}}
+
+        A questo punto si calcola la \textit{Power Spectral Density} dell'accelerazione $\ddot{x}_4 (t)$, che rappresenta la potenza 
+        distribuita su un dominio scomposto di frequenze. \\ 
+
+        Nello script si utilizza la funzione \textit{periodogram} per valutare la PSD, di seguito plottata.
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:PSD}
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione2/Matlab/PSD.eps}
+                \caption{Power Spectral Density dell'accelerazione del payload}
+            \end{figure}
+
+        Si possono osservare due picchi compresi tra i 20 Hz e i 30 Hz, per i quali si hanno i maggiori valori di potenza. \\ 
+
+        Si é quindi calcolato un valore quadratico medio pari a $\ddot{x}_{4,rms} = 24.3278 \ g$.
+
+        \clearpage
+
+        \section{Esercitazione 3 \label{Esercitazione_3}}
+
+            \begin{figure}[h!]
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione3/plank.eps}
+                \caption{Piastra incastrata ad una delle estremitá}
+            \end{figure}
+
+        
 
         \clearpage
         \printbibliography

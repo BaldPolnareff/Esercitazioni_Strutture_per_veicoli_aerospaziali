@@ -19,6 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Octave}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a789af59278b89f0b2c01d3480e87176}{%
+           family={Eaton},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{fullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{bibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorbibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authornamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorfullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gnu.org/software/octave/index}}
+      \field{title}{GNU Octave}
+      \field{year}{2020}
+    \endentry
     \entry{gnuplot}{misc}{}
       \field{sortinit}{g}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
@@ -79,6 +106,28 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://inkscape.org/}}
       \field{title}{Inkscape}
+    \endentry
+    \entry{Esercitazioni_strutture}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1135c1601dac8fe71e92c62c7736132}{%
+           family={Trane},
+           familyi={T\bibinitperiod},
+           given={Giorgio\bibnamedelima De},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1135c1601dac8fe71e92c62c7736132}
+      \strng{fullhash}{f1135c1601dac8fe71e92c62c7736132}
+      \strng{bibnamehash}{f1135c1601dac8fe71e92c62c7736132}
+      \strng{authorbibnamehash}{f1135c1601dac8fe71e92c62c7736132}
+      \strng{authornamehash}{f1135c1601dac8fe71e92c62c7736132}
+      \strng{authorfullhash}{f1135c1601dac8fe71e92c62c7736132}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/BaldPolnareff/Esercitazioni_Strutture_per_veicoli_aerospaziali}}
+      \field{title}{Esercitazioni Strutture per veicoli aerospaziali}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

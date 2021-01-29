@@ -1235,7 +1235,41 @@ breaklines=true
             \end{itemize}
         \end{itemize}
 
+        La simulazione mette subito in evidenza le deformazioni dei pannelli a fine dispiegamento, 
+        attraverso un gradiente di colore.
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:pannello_deformato}
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione4/pannello_flesso.png}
+                \caption{Pannelli dispiegati (deformazione accentuata)}
+            \end{figure}
+
+        \clearpage
+
+        Si plotta ora l'andamento dell'energia di deformazione per i due pannelli.
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:strain_energy}
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione4/strain_energy.eps}
+                \caption{Strain energy dei due pannelli flessibili}
+            \end{figure}
+
+        Viene messo in evidenza che entrambi i pannelli presentano un picco enorme di energia di deformazione,
+        poco prima di 3 secondi di simulazione.
         
+        Sarebbe quindi necessario fare altre valutazioni in merito all'ottimizzazione delle funzioni
+        di controllo dinamico, oppure sui valori di rigidezza e smorzamento o di precarico delle molle.
+        Inoltre, sarebbe opportuno valutare delle ottimizzazioni nelle geometrie coinvolte 
+        e nei materiali di cui sono costituiti i pannelli. \\ 
+
+        Infine, si visualizzano gli stress di Von Mises a pannelli dispiegati. Da notare
+        in rosso gli hotspot di particolare sollecitazione, sul pannello interno.
+
+        \begin{figure}[h!]
+            \phantomsection \label{fig:von_mises}
+            \includegraphics[width=\textwidth]{MUL2/Esercitazione4/von_mises.eps}
+            \caption{Stress di Von Mises}
+        \end{figure}
 
         \clearpage
         \printbibliography

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  29 JAN 2021 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  29 JAN 2021 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2254,16 +2254,57 @@ Overfull \hbox (16.2576pt too wide) in paragraph at lines 1233--1235
 \OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 = (6\OML/cmm/m/it/10 N[]  \OT1/cmr/m/n/10 +  [](\OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 ))  \OMS/cmsy/m/n/10 ^^@  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 )$ 
  []
 
+<MUL2/Esercitazione4/pannello_flesso.png, id=909, 309.5565pt x 83.3514pt>
+File: MUL2/Esercitazione4/pannello_flesso.png Graphic file (type png)
+<use MUL2/Esercitazione4/pannello_flesso.png>
+Package pdftex.def Info: MUL2/Esercitazione4/pannello_flesso.png  used on input line 1243.
+(pdftex.def)             Requested size: 345.0pt x 92.90138pt.
 [41
 
-] [42
+ </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/pannello_flesso.png>]
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/strain_energy.eps>
+(epstopdf)                    date: 2021-01-29 21:51:47
+(epstopdf)                    size: 144662 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 21:53:16
+(epstopdf)                    size: 98468 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf MUL2/Esercitazione4/strain_energy.eps>
+(epstopdf)             \includegraphics on input line 1253.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf, id=917, 2107.875pt x 721.69624pt>
+File: MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf  used on input line 1253.
+(pdftex.def)             Requested size: 345.0pt x 118.11668pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1264
+
+ []
+
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/von_mises.eps>
+(epstopdf)                    date: 2021-01-29 21:26:32
+(epstopdf)                    size: 1134532 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/von_mises-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 22:01:41
+(epstopdf)                    size: 248833 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/von_mises-eps-converted-to.pdf MUL2/Esercitazione4/von_mises.eps>
+(epstopdf)             \includegraphics on input line 1270.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/von_mises-eps-converted-to.pdf, id=918, 1387.1825pt x 611.28375pt>
+File: MUL2/Esercitazione4/von_mises-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/von_mises-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/von_mises-eps-converted-to.pdf  used on input line 1270.
+(pdftex.def)             Requested size: 345.0pt x 152.02773pt.
+[42
+
+ </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/strain_energy-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/von_mises-eps-converted-to.pdf>] [43
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1276.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1276.
 Package rerunfilecheck Info: File `Esercitazioni.out' has not changed.
 (rerunfilecheck)             Checksum: 85946BF6BC64C4ED75867C465EA9E91E;2803.
 
@@ -2275,18 +2316,18 @@ Package logreq Info: Writing requests to 'Esercitazioni.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39769 strings out of 480906
- 941747 string characters out of 5910771
- 1638494 words of memory out of 5000000
- 54485 multiletter control sequences out of 15000+600000
+ 39797 strings out of 480906
+ 942707 string characters out of 5910771
+ 1638677 words of memory out of 5000000
+ 54503 multiletter control sequences out of 15000+600000
  544746 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,98p,888b,1797s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (42 pages, 19371311 bytes).
+Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (43 pages, 20193059 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 748 compressed objects within 8 object streams
- 210 named destinations out of 1000 (max. 500000)
- 674 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1058 PDF objects out of 1200 (max. 8388607)
+ 765 compressed objects within 8 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 689 words of extra memory for PDF output out of 10000 (max. 10000000)
 

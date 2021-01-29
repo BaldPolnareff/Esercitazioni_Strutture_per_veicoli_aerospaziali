@@ -13,6 +13,12 @@
 \usepackage{physics}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
 
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -975,14 +981,16 @@
         Il modello studiato rappresenta un satellite con dispiegamento dei pannelli solari, soggetto ad un'analisi cinematica e dinamica, 
         considerando prima pannelli rigidi e poi flessibili.
 
+        \subsection{Analisi cinematica\label{analisi_cinematica}}
+
         \begin{itemize}
             \item Corpi (5):
             \begin{itemize}
                 \item Riferimento (Ground) 
-                \item Corpo del satellite in alluminio
-                \item Leva (Yoke) in acciaio
-                \item Inner Panel in alluminio
-                \item Outer Panel in alluminio
+                \item Corpo del satellite in alluminio, rigido
+                \item Leva (Yoke) in acciaio, rigida
+                \item Inner Panel in alluminio, rigido
+                \item Outer Panel in alluminio, rigido
             \end{itemize}
             \item Giunti (4):
             \begin{itemize}
@@ -994,22 +1002,241 @@
             \item Leggi di moto rotatorio applicate alle cerniere (3)
             \item Gradi di libertá (0):
             \begin{itemize}
-                \item Formula di Greubler: $N_{GDL} = 6(N_{bodies} - Ground) - \sum N_{constraining \ equations} $
+                \item Formula di Greubler: $N_{GDL} = 6(N_{rig.bod}) \ - \  \sum (N_{constraining \ equations}) $
             \end{itemize}
         \end{itemize}
 
-        Seguendo le istruzioni fornite a lezione, si giunge al seguente risultato:
 
         \begin{figure}[h!]
             \centering 
             \phantomsection \label{satellite_dispiegato}
-            \includegraphics[width=0.95\textwidth]{MUL2/Esercitazione4/satellite_dispiegato.eps}
-            \caption{Satellite coi pannelli dispiegati}
+            \includegraphics[width=0.85\textwidth]{MUL2/Esercitazione4/satellite_dispiegato.eps}
+            \caption{Rappresentazione del modello finale, con pannelli dispiegati}
         \end{figure}
 
+        \clearpage 
 
+        Inizialmente, una volta costruito il sistema multibody e stabilite le leggi di moto secondo le istruzioni
+        fornite a lezione, si svolge una simulazione della durata di cinque secondi, coi valori di default.
 
+        Non derivando da considerazioni dinamiche, ma da leggi cinematiche imposte, il sistema esibisce
+        un moto ideale, con una distribuzione parabolica delle velocitá che parte da zero, raggiunge un picco e ritorna a zero
+        una volta compiuto il dispiegamento.
+
+            \begin{figure}[h!]
+                \centering
+                \phantomsection \label{fig:angular_velocity}
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione4/analisi_cinematica_ang_velocity.eps}
+                \caption{Velocitá angolari nel tempo}
+            \end{figure}
+
+            Naturalmente, per avere un dispiegamento completo, é necessario imporre alle cerniere 
+            una rotazione angolare massima di $90 \deg$ per la leva e di $\pm 180 \deg$ per i pannelli.
+
+            \begin{figure}[h!]
+                \centering
+                \phantomsection \label{fig:angular_velocity}
+                \includegraphics[width=\textwidth]{MUL2/Esercitazione4/analisi_cinematica_angle.eps}
+                \caption{Variazioni angolari nel tempo}
+            \end{figure}
+        \clearpage
+
+        \subsection{Analisi dinamica\label{analisi_dinamica}}
+
+        Naturalmente, il moto reale del sistema multibody non segue una legge cinematica idealmente
+        imposta, ma fa testo a modellizzazioni di moti complessi a vari gradi di libertá, legati all'interazione
+        dinamica tra gli oggetti componenti il sistema e l'implementazione software dei vincoli che ne vanno a 
+        determinare le reazioni. 
+
+        Sostanzialmente, la cinematica del sistema non é piú un'imposizione esterna, ma 
+        é conseguenza di un'analisi dinamica tra forze e reazioni vincolari, ovviamente
+        dipendente dai parametri imposti, in base ai quali il software svolge una simulazione
+        numerica e fornisce degli output, visualizzabili anche sotto forma di animazione in una
+        workbench tridimensionale. 
+
+        \subsubsection{Analisi con pannelli rigidi\label{analisi_pannelli_rigidi}}
+
+        \begin{itemize}
+            \item Corpi (5):
+            \begin{itemize}
+                \item Riferimento (Ground) 
+                \item Corpo del satellite in alluminio, rigido
+                \item Leva (Yoke) in acciaio, rigida
+                \item Inner Panel in alluminio, rigido
+                \item Outer Panel in alluminio, rigido
+            \end{itemize}
+            \item Giunti (4):
+            \begin{itemize}
+                \item Incastro tra corpo e ground
+                \item Cerniera tra leva e corpo
+                \item Cerniera tra pannello interno e leva
+                \item Cerniera tra pannello interno e pannello esterno
+            \end{itemize}
+            \item Leggi di moto rotatorio applicate alle cerniere (0)
+            \item Gradi di libertá (3):
+            \begin{itemize}
+                \item Formula di Greubler: \\ 
+                $N_{GDL} = (6N_{rig.bod} \ + \ \sum (N_{flex.bod} \cdot N_{modes})) \ - \ \sum (N_{constraining \ equations}) $
+            \end{itemize}
+        \end{itemize}
+
+        Vengono quindi disattivate le leggi di moto inizialmente imposte e si introducono nei pressi delle cerniere
+        tre molle torsionali, comprensive di un certo valore di rigidezza, di smorzamento ed infine di un 
+        precarico, necessario per mettere in moto il sistema, oltretutto situato in un ambiente privo di gravitá.
+        \clearpage 
+
+        \begin{itemize}
+            \item Molla 1 (carrozza-leva)
+                \begin{itemize}
+                    \item $K = 380$
+                    \item $\nu = 1000$
+                    \item $F = -1.75 \cdot 10^4$ 
+                \end{itemize}
+            \item Molla 2 (leva-pannello interno)
+                \begin{itemize}
+                    \item $K = 1600$
+                    \item $\nu = 160$
+                    \item $F = 2 \cdot 10^5$ 
+                \end{itemize}
+            \item Molla 3 (pannello interno-pannello esterno)
+                \begin{itemize}
+                    \item $K = 1000$
+                    \item $\nu = 100$
+                    \item $F = -1 \cdot 10^5$ 
+                \end{itemize}
+        \end{itemize}
+
+        
+        Eseguendo una simulazione con questi valori, si nota immediatamente che il sistema é totalmente
+        disfunzionale, in quanto la rigidezza delle molle accumula troppa energia potenziale, poi rilasciata
+        facendo rimbalzare leva e pannelli e mandando quindi le parti del sistema in collisione. \\ 
+
+        É necessario quindi introdurre dei controlli dinamici in grado di frenare il sistema. \\ 
+        
+        L'implementazione di tali controlli dinamici é realizzata mediante funzioni esplicite, editabili
+        sotto forma di testo e dipendenti da un certo numero di input.
+
+        Introducendo quindi la funzione \textit{IF} si riesce a frenare il sistema, ottenendo un risultato 
+        migliore. \\ 
+        
+        \begin{itemize}
+            \item Controllo dinamico 1 (carrozza-leva) 
+                \begin{lstlisting}
+                    IF(.satellite1.leva_car_wz: 0,0,-1E+5*.satellite1.leva_car_wz)
+                \end{lstlisting}
+            \item Controllo dinamico 2 (leva-pannello interno) 
+                \begin{lstlisting}
+                    IF(.satellite1.pint_leva_wz : -1e+5*.satellite1.pint_leva_wz,0,0)
+                \end{lstlisting}
+            \item Controllo dinamico 3 (pannello interno-pannello esterno)  
+                \begin{lstlisting}
+                    IF(.satellite1.extpan_pint_wz: 0,0,-1E+5*.satellite1.extpan_pint_wz)
+                \end{lstlisting}
+        \end{itemize}
+
+        Inoltre, a seguito di una piú attenta analisi dei corpi costruiti, si constata che il software
+        calcola la massa di ogni singolo corpo, partendo dal volume e da una distribuzione di densitá omogenea, 
+        con l'acciaio come materiale di default.
+
+        Il problema é quindi ulteriormente mitigato settando i materiali appropriati per l'analisi, come 
+        precedentemente stabilito. 
+        
+        Come previsto, infatti, utilizzando l'alluminio per i pannelli,
+        si riduce di circa un terzo la loro massa, ovviamente anche con effetti positivi sulle sollecitazioni. \\ 
+
+        Il freno dinamico puó essere ancora migliorato, introducendo, oltre alla funzione
+        di impulso frenante in risposta alla velocitá, una funzione \textit{BISTOP} coadiuvata dalla funzione
+        \textit{STEP}.
+
+        Il controllo \textit{BISTOP} permette infatti di introdurre un fine-corsa dinamico, capace di rispondere
+        in maniera adattiva alle variazioni relative di angolo e velocitá angolare tra due corpi. \\ 
+
+        In definitiva, si ha: 
+
+        \begin{itemize}
+            \item Controllo dinamico 1 (carrozza-leva) 
+                \begin{lstlisting}
+                    IF(.satellite1.leva_car_wz: 0,0,-1E+5*.satellite1.leva_car_wz)+
+                    STEP(.satellite1.leva_car_rotang_z,-91,1,-89,0)*
+                    BISTOP(.satellite1.leva_car_rotang_z,.satellite1.leva_car_wz,-91,-89,10000,2.2,100,0.1)
+                \end{lstlisting}
+            \item Controllo dinamico 2 (leva-pannello interno) 
+                \begin{lstlisting}
+                    IF(.satellite1.pint_leva_wz : -1e+5*.satellite1.pint_leva_wz,0,0)+
+                    STEP(.satellite1.pint_leva_az,179,0,181,1)*
+                    BISTOP(.satellite1.pint_leva_az,.satellite1.pint_leva_wz,179,181,10000,2.2,100,0.1)
+                \end{lstlisting}
+            \item Controllo dinamico 3 (pannello interno-pannello esterno)  
+                \begin{lstlisting}
+                    IF(.satellite1.extpan_pint_wz: 0,0,-1E+5*.satellite1.extpan_pint_wz)+
+                    satellite1.pest_pint_az,-181,1,-179,0)*
+                    BISTOP(.satellite1.pest_pint_az,.satellite1.extpan_pint_wz,-181,-179,10000,2.2,100,0.1)
+                \end{lstlisting}
+        \end{itemize}
+
+        \clearpage
+
+        In conclusione, l'introduzione di un sistema di controllo dinamico accuratamente dimensionato 
+        ha nettamente smorzato tutte le sollecitazioni dovute alle reazioni elastiche delle molle, inziialmente
+        preponderanti e compromettenti il successo dell'intera missione di dispiegamento. 
+
+        Di seguito, si confrontano gli andamenti dei vari moti di rilievo, nei tre casi studiati.
+        Si nota subito che l'efficacia dello smorzamento é particolarmente significativa.
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:dinamica_confronto_pannelli}
+                \centering
+                \includegraphics[width=0.9\textwidth]{MUL2/Esercitazione4/dinamica_confronto_pannelli.eps} 
+                \caption{Pannello interno-Pannello esterno}
+            \end{figure}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:dinamica_confronto_levacar}
+                \centering
+                \includegraphics[width=0.9\textwidth]{MUL2/Esercitazione4/dinamica_confronto_leva_carrozza.eps}\\ 
+                \caption{Leva-Carrozza}
+            \end{figure}
+
+            \begin{figure}[h!]
+                \phantomsection \label{fig:dinamica_confronto_pintleva}
+                \centering
+                \includegraphics[width=0.9\textwidth]{MUL2/Esercitazione4/dinamica_confronto_pint_leva.eps}
+                \caption{Pannello interno-Leva}
+            \end{figure}
                 
+        \clearpage 
+
+        \subsubsection{Analisi con pannelli flessibili \label{analisi_pannelli_flessibili}}
+
+        Infine, si introduce un altro grado di accuratezza nel sistema, utilizzando dei pannelli flessibili
+        anziché dei pannelli rigidi, per i quali verranno analizzate l'energia di deformazione e gli stress di Von Mises. 
+
+        \begin{itemize}
+            \item Corpi (5):
+            \begin{itemize}
+                \item Riferimento (Ground) 
+                \item Corpo del satellite in alluminio, rigido
+                \item Leva (Yoke) in acciaio, rigida
+                \item Inner Panel in alluminio, rigido
+                \item Outer Panel in alluminio, rigido
+            \end{itemize}
+            \item Giunti (4):
+            \begin{itemize}
+                \item Incastro tra corpo e ground
+                \item Cerniera tra leva e corpo
+                \item Cerniera tra pannello interno e leva
+                \item Cerniera tra pannello interno e pannello esterno
+            \end{itemize}
+            \item Leggi di moto rotatorio applicate alle cerniere (0)
+            \item Gradi di libertá (29):
+            \begin{itemize}
+                \item Formula di Greubler: \\ 
+                $N_{GDL} = (6N_{rig.bod} \ + \ \sum (N_{flex.bod} \cdot N_{modes})) \ - \ \sum (N_{constraining \ equations}) $
+            \end{itemize}
+        \end{itemize}
+
+        
+
         \clearpage
         \printbibliography
 \end{document}

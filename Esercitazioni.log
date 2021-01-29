@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  28 JAN 2021 22:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.10.25)  29 JAN 2021 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -774,18 +774,39 @@ Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+))) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count461
+\lst@gtempboxa=\box70
+\lst@token=\toks39
+\lst@length=\count462
+\lst@currlwidth=\dimen307
+\lst@column=\count463
+\lst@pos=\count464
+\lst@lostspace=\dimen308
+\lst@width=\dimen309
+\lst@newlines=\count465
+\lst@lineno=\count466
+\lst@maxwidth=\dimen310
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count467
+\lst@skipnumbers=\count468
+\lst@framebox=\box71
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 26.
+(hyperref)                setting the option has no effect on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.external.code.tex (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex)))
 \openout4 = `Esercitazioni.auxlock'.
 
-\@quotelevel=\count461
-\@quotereset=\count462
+\@quotelevel=\count469
+\@quotereset=\count470
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux
 
 LaTeX Warning: Label `fig:MUL2_stdout' multiply defined.
@@ -793,25 +814,28 @@ LaTeX Warning: Label `fig:MUL2_stdout' multiply defined.
 
 LaTeX Warning: Label `equation:q1' multiply defined.
 
+
+LaTeX Warning: Label `fig:angular_velocity' multiply defined.
+
 )
 \openout1 = `Esercitazioni.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -825,10 +849,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Esercitazioni.bbl' found.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
-\AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring ON on input line 33.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring ON on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -836,30 +860,30 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count463
+\c@section@level=\count471
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out) (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.out)
 \@outlinefile=\write5
 \openout5 = `Esercitazioni.out'.
 
-LaTeX Info: Redefining \Ref on input line 33.
+LaTeX Info: Redefining \Ref on input line 39.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count464
-\scratchdimen=\dimen307
-\scratchbox=\box71
-\nofMPsegments=\count465
-\nofMParguments=\count466
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count467
-\MPscratchDim=\dimen308
-\MPnumerator=\count468
-\makeMPintoPDFobject=\count469
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count472
+\scratchdimen=\dimen311
+\scratchbox=\box73
+\nofMPsegments=\count473
+\nofMParguments=\count474
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count475
+\MPscratchDim=\dimen312
+\MPnumerator=\count476
+\makeMPintoPDFobject=\count477
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -870,24 +894,25 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \celsius on input line 33.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 33.
+LaTeX Info: Redefining \celsius on input line 39.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 39.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 33.
-Package gensymb Info: Using \Omega for \ohm on input line 33.
+LaTeX Info: Redefining \ohm on input line 39.
+Package gensymb Info: Using \Omega for \ohm on input line 39.
 
 Package gensymb Warning: Not defining \micro.
 
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.17} (current compat level: 1.5).
 
-<polito_logo.png, id=139, 1204.5pt x 1204.5pt>
+\c@lstlisting=\count478
+<polito_logo.png, id=155, 1204.5pt x 1204.5pt>
 File: polito_logo.png Graphic file (type png)
 <use polito_logo.png>
-Package pdftex.def Info: polito_logo.png  used on input line 37.
+Package pdftex.def Info: polito_logo.png  used on input line 43.
 (pdftex.def)             Requested size: 276.00105pt x 275.99994pt.
 [1
 
@@ -898,19 +923,19 @@ Package pdftex.def Info: polito_logo.png  used on input line 37.
  [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--54
+Underfull \hbox (badness 10000) in paragraph at lines 52--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
-<MUL2_feedback.png, id=193, 1440.13031pt x 1426.57968pt>
+<MUL2_feedback.png, id=213, 1440.13031pt x 1426.57968pt>
 File: MUL2_feedback.png Graphic file (type png)
 <use MUL2_feedback.png>
-Package pdftex.def Info: MUL2_feedback.png  used on input line 100.
+Package pdftex.def Info: MUL2_feedback.png  used on input line 106.
 (pdftex.def)             Requested size: 345.0pt x 341.73308pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -925,32 +950,32 @@ Package epstopdf Info: Source file: <ES1_Esercizio1.eps>
 (epstopdf)                    date: 2020-12-27 15:20:38
 (epstopdf)                    size: 14397 bytes
 (epstopdf)             Command: <repstopdf --outfile=ES1_Esercizio1-eps-converted-to.pdf ES1_Esercizio1.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
-<ES1_Esercizio1-eps-converted-to.pdf, id=218, 939.51pt x 614.295pt>
+<ES1_Esercizio1-eps-converted-to.pdf, id=238, 939.51pt x 614.295pt>
 File: ES1_Esercizio1-eps-converted-to.pdf Graphic file (type pdf)
 <use ES1_Esercizio1-eps-converted-to.pdf>
-Package pdftex.def Info: ES1_Esercizio1-eps-converted-to.pdf  used on input line 115.
+Package pdftex.def Info: ES1_Esercizio1-eps-converted-to.pdf  used on input line 121.
 (pdftex.def)             Requested size: 172.5pt x 112.78044pt.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 120.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 126.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 120.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 126.
 
 Missing character: There is no ° in font cmr10!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 121.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 121.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
 
 Missing character: There is no ° in font cmr10!
 [5
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/ES1_Esercizio1-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
 
  []
 
@@ -964,12 +989,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1A/p.eps>
 (epstopdf)                    date: 2020-12-27 15:40:55
 (epstopdf)                    size: 22875 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1A/p-eps-converted-to.pdf MUL2/Esercitazione1/1A/p.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1A/p-eps-converted-to.pdf, id=232, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1A/p-eps-converted-to.pdf, id=252, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1A/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1A/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1A/p-eps-converted-to.pdf  used on input line 196.
+Package pdftex.def Info: MUL2/Esercitazione1/1A/p-eps-converted-to.pdf  used on input line 202.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/1A/Dp.eps>
 (epstopdf)                    date: 2020-12-27 11:14:38
@@ -978,12 +1003,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1A/Dp.eps>
 (epstopdf)                    date: 2020-12-27 15:40:55
 (epstopdf)                    size: 25923 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf MUL2/Esercitazione1/1A/Dp.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf, id=233, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf, id=253, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf  used on input line 204.
+Package pdftex.def Info: MUL2/Esercitazione1/1A/Dp-eps-converted-to.pdf  used on input line 210.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
  [7
 
@@ -995,12 +1020,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1B/p.eps>
 (epstopdf)                    date: 2020-12-27 15:59:40
 (epstopdf)                    size: 28948 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1B/p-eps-converted-to.pdf MUL2/Esercitazione1/1B/p.eps>
-(epstopdf)             \includegraphics on input line 213.
+(epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1B/p-eps-converted-to.pdf, id=255, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1B/p-eps-converted-to.pdf, id=275, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1B/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1B/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1B/p-eps-converted-to.pdf  used on input line 213.
+Package pdftex.def Info: MUL2/Esercitazione1/1B/p-eps-converted-to.pdf  used on input line 219.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/1B/Dp.eps>
 (epstopdf)                    date: 2020-12-27 11:22:13
@@ -1009,12 +1034,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1B/Dp.eps>
 (epstopdf)                    date: 2020-12-27 15:59:40
 (epstopdf)                    size: 20360 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf MUL2/Esercitazione1/1B/Dp.eps>
-(epstopdf)             \includegraphics on input line 221.
+(epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf, id=256, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf, id=276, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf  used on input line 221.
+Package pdftex.def Info: MUL2/Esercitazione1/1B/Dp-eps-converted-to.pdf  used on input line 227.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
  [8
 
@@ -1026,12 +1051,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1C/p.eps>
 (epstopdf)                    date: 2020-12-27 15:59:40
 (epstopdf)                    size: 30102 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1C/p-eps-converted-to.pdf MUL2/Esercitazione1/1C/p.eps>
-(epstopdf)             \includegraphics on input line 230.
+(epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1C/p-eps-converted-to.pdf, id=277, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1C/p-eps-converted-to.pdf, id=297, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1C/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1C/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1C/p-eps-converted-to.pdf  used on input line 230.
+Package pdftex.def Info: MUL2/Esercitazione1/1C/p-eps-converted-to.pdf  used on input line 236.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/1C/Dp.eps>
 (epstopdf)                    date: 2020-12-27 11:28:23
@@ -1040,17 +1065,17 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/1C/Dp.eps>
 (epstopdf)                    date: 2020-12-27 15:59:40
 (epstopdf)                    size: 17061 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf MUL2/Esercitazione1/1C/Dp.eps>
-(epstopdf)             \includegraphics on input line 238.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf, id=278, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf, id=298, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf  used on input line 238.
+Package pdftex.def Info: MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf  used on input line 244.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
  [9
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione1/1C/p-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione1/1C/Dp-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
@@ -1061,20 +1086,20 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2A/Esercizio_2.eps>
 (epstopdf)                    date: 2020-12-27 18:49:55
 (epstopdf)                    size: 749198 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf MUL2/Esercitazione1/2A/Esercizio_2.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf, id=300, 598.235pt x 845.1575pt>
+<MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf, id=320, 598.235pt x 845.1575pt>
 File: MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: MUL2/Esercitazione1/2A/Esercizio_2-eps-converted-to.pdf  used on input line 258.
 (pdftex.def)             Requested size: 172.5pt x 243.69662pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--275
+Underfull \hbox (badness 10000) in paragraph at lines 272--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--275
+Underfull \hbox (badness 10000) in paragraph at lines 272--281
 
  []
 
@@ -1088,12 +1113,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2A/p.eps>
 (epstopdf)                    date: 2020-12-27 19:18:54
 (epstopdf)                    size: 44433 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2A/p-eps-converted-to.pdf MUL2/Esercitazione1/2A/p.eps>
-(epstopdf)             \includegraphics on input line 288.
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2A/p-eps-converted-to.pdf, id=316, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2A/p-eps-converted-to.pdf, id=337, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2A/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2A/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2A/p-eps-converted-to.pdf  used on input line 288.
+Package pdftex.def Info: MUL2/Esercitazione1/2A/p-eps-converted-to.pdf  used on input line 294.
 (pdftex.def)             Requested size: 172.5pt x 246.43153pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/2A/Dp.eps>
 (epstopdf)                    date: 2020-12-27 11:36:50
@@ -1102,12 +1127,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2A/Dp.eps>
 (epstopdf)                    date: 2020-12-27 16:16:02
 (epstopdf)                    size: 32698 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf MUL2/Esercitazione1/2A/Dp.eps>
-(epstopdf)             \includegraphics on input line 296.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf, id=317, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf, id=338, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf  used on input line 296.
+Package pdftex.def Info: MUL2/Esercitazione1/2A/Dp-eps-converted-to.pdf  used on input line 302.
 (pdftex.def)             Requested size: 172.5pt x 246.43153pt.
  [11
 
@@ -1119,12 +1144,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2B/p.eps>
 (epstopdf)                    date: 2020-12-27 19:20:19
 (epstopdf)                    size: 45314 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2B/p-eps-converted-to.pdf MUL2/Esercitazione1/2B/p.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2B/p-eps-converted-to.pdf, id=339, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2B/p-eps-converted-to.pdf, id=359, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2B/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2B/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2B/p-eps-converted-to.pdf  used on input line 307.
+Package pdftex.def Info: MUL2/Esercitazione1/2B/p-eps-converted-to.pdf  used on input line 313.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/2B/Dp.eps>
 (epstopdf)                    date: 2020-12-27 11:50:52
@@ -1133,12 +1158,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2B/Dp.eps>
 (epstopdf)                    date: 2020-12-27 16:16:02
 (epstopdf)                    size: 33455 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf MUL2/Esercitazione1/2B/Dp.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf, id=340, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf, id=360, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf  used on input line 315.
+Package pdftex.def Info: MUL2/Esercitazione1/2B/Dp-eps-converted-to.pdf  used on input line 321.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
  [12
 
@@ -1150,12 +1175,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2C/p.eps>
 (epstopdf)                    date: 2020-12-27 19:21:17
 (epstopdf)                    size: 41547 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2C/p-eps-converted-to.pdf MUL2/Esercitazione1/2C/p.eps>
-(epstopdf)             \includegraphics on input line 324.
+(epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2C/p-eps-converted-to.pdf, id=361, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2C/p-eps-converted-to.pdf, id=381, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2C/p-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2C/p-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2C/p-eps-converted-to.pdf  used on input line 324.
+Package pdftex.def Info: MUL2/Esercitazione1/2C/p-eps-converted-to.pdf  used on input line 330.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione1/2C/Dp.eps>
 (epstopdf)                    date: 2020-12-27 12:06:09
@@ -1164,34 +1189,34 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione1/2C/Dp.eps>
 (epstopdf)                    date: 2020-12-27 16:16:03
 (epstopdf)                    size: 27636 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf MUL2/Esercitazione1/2C/Dp.eps>
-(epstopdf)             \includegraphics on input line 332.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf, id=362, 505.89pt x 722.7pt>
+<MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf, id=382, 505.89pt x 722.7pt>
 File: MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf  used on input line 332.
+Package pdftex.def Info: MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf  used on input line 338.
 (pdftex.def)             Requested size: 207.0021pt x 295.72446pt.
  [13
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione1/2C/p-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione1/2C/Dp-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 341--371
+Underfull \hbox (badness 10000) in paragraph at lines 347--377
 
  []
 
 [14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 375--393
+Underfull \hbox (badness 10000) in paragraph at lines 381--399
 
  []
 
 
-Overfull \hbox (6.30621pt too wide) in paragraph at lines 375--393
+Overfull \hbox (6.30621pt too wide) in paragraph at lines 381--399
 \OT1/cmr/m/n/10 Nell'ultimo caso, l'area viene ul-te-ri-or-mente ri-dotta di un al-tro or-dine di grandezza:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--393
+Underfull \hbox (badness 10000) in paragraph at lines 381--399
 
  []
 
@@ -1205,34 +1230,34 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Esercitazione2.eps>
 (epstopdf)                    date: 2020-12-27 20:50:46
 (epstopdf)                    size: 795512 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf MUL2/Esercitazione2/Esercitazione2.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf, id=401, 2615.7725pt x 2022.55624pt>
+<MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf, id=421, 2615.7725pt x 2022.55624pt>
 File: MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf  used on input line 415.
+Package pdftex.def Info: MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf  used on input line 421.
 (pdftex.def)             Requested size: 276.00105pt x 213.40854pt.
  [16
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione2/Esercitazione2-eps-converted-to.pdf>]
-Overfull \hbox (0.33162pt too wide) in paragraph at lines 438--440
+Overfull \hbox (0.33162pt too wide) in paragraph at lines 444--446
 \OT1/cmr/m/n/10 dove M e K sono rispet-ti-va-mente le ma-trici delle masse con-cen-trate e di rigidezza,
  []
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
+Underfull \hbox (badness 10000) in paragraph at lines 511--513
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
@@ -1246,12 +1271,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/disp_160.eps>
 (epstopdf)                    date: 2021-01-28 02:44:41
 (epstopdf)                    size: 258784 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf MUL2/Esercitazione2/Matlab/disp_160.eps>
-(epstopdf)             \includegraphics on input line 578.
+(epstopdf)             \includegraphics on input line 584.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf, id=483, 979.66pt x 734.745pt>
+<MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf, id=504, 979.66pt x 734.745pt>
 File: MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf  used on input line 578.
+Package pdftex.def Info: MUL2/Esercitazione2/Matlab/disp_160-eps-converted-to.pdf  used on input line 584.
 (pdftex.def)             Requested size: 172.5pt x 129.36708pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/disp_0.2.eps>
 (epstopdf)                    date: 2021-01-28 02:49:15
@@ -1260,15 +1285,15 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/disp_0.2.eps>
 (epstopdf)                    date: 2021-01-28 02:49:17
 (epstopdf)                    size: 189731 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf MUL2/Esercitazione2/Matlab/disp_0.2.eps>
-(epstopdf)             \includegraphics on input line 579.
+(epstopdf)             \includegraphics on input line 585.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf, id=484, 578.16pt x 433.62pt>
+<MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf, id=505, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf  used on input line 579.
+Package pdftex.def Info: MUL2/Esercitazione2/Matlab/disp_0.2-eps-converted-to.pdf  used on input line 585.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 578--580
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 584--586
 [][] [] 
  []
 
@@ -1282,12 +1307,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/acceleration.eps
 (epstopdf)                    date: 2021-01-28 03:08:12
 (epstopdf)                    size: 691005 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf MUL2/Esercitazione2/Matlab/acceleration.eps>
-(epstopdf)             \includegraphics on input line 599.
+(epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf, id=502, 578.16pt x 433.62pt>
+<MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf, id=522, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf  used on input line 599.
+Package pdftex.def Info: MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf  used on input line 605.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/load.eps>
 (epstopdf)                    date: 2021-01-28 03:27:20
@@ -1296,27 +1321,27 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/load.eps>
 (epstopdf)                    date: 2021-01-28 03:27:22
 (epstopdf)                    size: 376159 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf MUL2/Esercitazione2/Matlab/load.eps>
-(epstopdf)             \includegraphics on input line 600.
+(epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf, id=503, 578.16pt x 433.62pt>
+<MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf, id=523, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf  used on input line 600.
+Package pdftex.def Info: MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf  used on input line 606.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 599--601
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 605--607
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--611
+Underfull \hbox (badness 10000) in paragraph at lines 614--617
 
  []
 
 [20
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione2/Matlab/acceleration-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione2/Matlab/load-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 623--625
+Underfull \hbox (badness 10000) in paragraph at lines 629--631
 
  []
 
@@ -1327,15 +1352,15 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione2/Matlab/PSD.eps>
 (epstopdf)                    date: 2021-01-28 04:22:20
 (epstopdf)                    size: 172671 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf MUL2/Esercitazione2/Matlab/PSD.eps>
-(epstopdf)             \includegraphics on input line 630.
+(epstopdf)             \includegraphics on input line 636.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf, id=514, 578.16pt x 433.62pt>
+<MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf, id=534, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf  used on input line 630.
+Package pdftex.def Info: MUL2/Esercitazione2/Matlab/PSD-eps-converted-to.pdf  used on input line 636.
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
@@ -1349,17 +1374,17 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/plank.eps>
 (epstopdf)                    date: 2021-01-28 04:49:01
 (epstopdf)                    size: 76481 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/plank-eps-converted-to.pdf MUL2/Esercitazione3/plank.eps>
-(epstopdf)             \includegraphics on input line 643.
+(epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/plank-eps-converted-to.pdf, id=523, 845.1575pt x 412.54124pt>
+<MUL2/Esercitazione3/plank-eps-converted-to.pdf, id=543, 845.1575pt x 412.54124pt>
 File: MUL2/Esercitazione3/plank-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/plank-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/plank-eps-converted-to.pdf  used on input line 643.
+Package pdftex.def Info: MUL2/Esercitazione3/plank-eps-converted-to.pdf  used on input line 649.
 (pdftex.def)             Requested size: 345.0pt x 168.4065pt.
  [22
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/plank-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 666--668
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
 
  []
 
@@ -1373,12 +1398,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:28:04
 (epstopdf)                    size: 312449 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1.eps>
-(epstopdf)             \includegraphics on input line 701.
+(epstopdf)             \includegraphics on input line 707.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf, id=539, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf, id=559, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf  used on input line 701.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex1-eps-converted-to.pdf  used on input line 707.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2.eps>
 (epstopdf)                    date: 2021-01-03 12:29:14
@@ -1387,12 +1412,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:33:17
 (epstopdf)                    size: 339578 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2.eps>
-(epstopdf)             \includegraphics on input line 702.
+(epstopdf)             \includegraphics on input line 708.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf, id=540, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf, id=560, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf  used on input line 702.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex2-eps-converted-to.pdf  used on input line 708.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3.eps>
 (epstopdf)                    date: 2021-01-03 12:31:40
@@ -1401,12 +1426,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:33:24
 (epstopdf)                    size: 353505 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3.eps>
-(epstopdf)             \includegraphics on input line 703.
+(epstopdf)             \includegraphics on input line 709.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf, id=541, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf, id=561, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf  used on input line 703.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex3-eps-converted-to.pdf  used on input line 709.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4.eps>
 (epstopdf)                    date: 2021-01-03 12:34:12
@@ -1415,12 +1440,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:33:31
 (epstopdf)                    size: 371508 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4.eps>
-(epstopdf)             \includegraphics on input line 704.
+(epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf, id=542, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf, id=562, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf  used on input line 704.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex4-eps-converted-to.pdf  used on input line 710.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5.eps>
 (epstopdf)                    date: 2021-01-03 12:38:33
@@ -1429,12 +1454,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:33:39
 (epstopdf)                    size: 127306 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5.eps>
-(epstopdf)             \includegraphics on input line 705.
+(epstopdf)             \includegraphics on input line 711.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf, id=543, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf, id=563, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf  used on input line 705.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex5-eps-converted-to.pdf  used on input line 711.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6.eps>
 (epstopdf)                    date: 2021-01-03 12:36:28
@@ -1443,25 +1468,25 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:33:46
 (epstopdf)                    size: 379543 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6.eps>
-(epstopdf)             \includegraphics on input line 706.
+(epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf, id=544, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf, id=564, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf  used on input line 706.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Flex/flex6-eps-converted-to.pdf  used on input line 712.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 701--707
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 707--713
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 701--707
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 707--713
 [] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 701--707
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 707--713
 [] [] 
  []
 
@@ -1475,12 +1500,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:43:40
 (epstopdf)                    size: 354661 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1.eps>
-(epstopdf)             \includegraphics on input line 719.
+(epstopdf)             \includegraphics on input line 725.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf, id=587, 2795.44376pt x 1683.28876pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf, id=607, 2795.44376pt x 1683.28876pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf  used on input line 719.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque1-eps-converted-to.pdf  used on input line 725.
 (pdftex.def)             Requested size: 172.5pt x 103.86967pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2.eps>
 (epstopdf)                    date: 2021-01-03 12:30:44
@@ -1489,12 +1514,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:43:47
 (epstopdf)                    size: 370602 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2.eps>
-(epstopdf)             \includegraphics on input line 720.
+(epstopdf)             \includegraphics on input line 726.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf, id=588, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf, id=608, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf  used on input line 720.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque2-eps-converted-to.pdf  used on input line 726.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3.eps>
 (epstopdf)                    date: 2021-01-03 12:32:27
@@ -1503,12 +1528,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:43:55
 (epstopdf)                    size: 380943 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3.eps>
-(epstopdf)             \includegraphics on input line 721.
+(epstopdf)             \includegraphics on input line 727.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf, id=589, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf, id=609, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf  used on input line 721.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque3-eps-converted-to.pdf  used on input line 727.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4.eps>
 (epstopdf)                    date: 2021-01-03 12:35:07
@@ -1517,20 +1542,20 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:44:02
 (epstopdf)                    size: 384755 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4.eps>
-(epstopdf)             \includegraphics on input line 722.
+(epstopdf)             \includegraphics on input line 728.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf, id=590, 2827.56375pt x 1715.40875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf, id=610, 2827.56375pt x 1715.40875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf  used on input line 722.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/90deg/Torque/torque4-eps-converted-to.pdf  used on input line 728.
 (pdftex.def)             Requested size: 172.5pt x 104.64763pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 719--723
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 725--729
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 719--723
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 725--729
 [] [] 
  []
 
@@ -1546,12 +1571,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:54:58
 (epstopdf)                    size: 589896 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45.eps>
-(epstopdf)             \includegraphics on input line 758.
+(epstopdf)             \includegraphics on input line 764.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf, id=628, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf, id=649, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf  used on input line 758.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex1_45-eps-converted-to.pdf  used on input line 764.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45.eps>
 (epstopdf)                    date: 2021-01-05 15:26:47
@@ -1560,12 +1585,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:55:14
 (epstopdf)                    size: 629384 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45.eps>
-(epstopdf)             \includegraphics on input line 759.
+(epstopdf)             \includegraphics on input line 765.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf, id=629, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf, id=650, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf  used on input line 759.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex2_45-eps-converted-to.pdf  used on input line 765.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45.eps>
 (epstopdf)                    date: 2021-01-05 15:28:34
@@ -1574,12 +1599,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:55:30
 (epstopdf)                    size: 649794 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45.eps>
-(epstopdf)             \includegraphics on input line 760.
+(epstopdf)             \includegraphics on input line 766.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf, id=630, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf, id=651, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf  used on input line 760.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex3_45-eps-converted-to.pdf  used on input line 766.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45.eps>
 (epstopdf)                    date: 2021-01-05 15:31:35
@@ -1588,12 +1613,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:55:46
 (epstopdf)                    size: 580304 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45.eps>
-(epstopdf)             \includegraphics on input line 761.
+(epstopdf)             \includegraphics on input line 767.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf, id=631, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf, id=652, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf  used on input line 761.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex4_45-eps-converted-to.pdf  used on input line 767.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45.eps>
 (epstopdf)                    date: 2021-01-05 15:32:30
@@ -1602,12 +1627,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:56:02
 (epstopdf)                    size: 681715 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45.eps>
-(epstopdf)             \includegraphics on input line 762.
+(epstopdf)             \includegraphics on input line 768.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf, id=632, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf, id=653, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf  used on input line 762.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex5_45-eps-converted-to.pdf  used on input line 768.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45.eps>
 (epstopdf)                    date: 2021-01-05 15:35:42
@@ -1616,25 +1641,25 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:56:18
 (epstopdf)                    size: 641786 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45.eps>
-(epstopdf)             \includegraphics on input line 763.
+(epstopdf)             \includegraphics on input line 769.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf, id=633, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf, id=654, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf  used on input line 763.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Flex/flex6_45-eps-converted-to.pdf  used on input line 769.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 758--764
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 764--770
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 758--764
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 764--770
 [] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 758--764
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 764--770
 [] [] 
  []
 
@@ -1648,12 +1673,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:56:34
 (epstopdf)                    size: 678944 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45.eps>
-(epstopdf)             \includegraphics on input line 777.
+(epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf, id=677, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf, id=697, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf  used on input line 777.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque1_45-eps-converted-to.pdf  used on input line 783.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45.eps>
 (epstopdf)                    date: 2021-01-05 15:27:45
@@ -1662,12 +1687,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:56:51
 (epstopdf)                    size: 683123 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45.eps>
-(epstopdf)             \includegraphics on input line 778.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf, id=678, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf, id=698, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf  used on input line 778.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque2_45-eps-converted-to.pdf  used on input line 784.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45.eps>
 (epstopdf)                    date: 2021-01-05 15:30:25
@@ -1676,12 +1701,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:57:07
 (epstopdf)                    size: 689524 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45.eps>
-(epstopdf)             \includegraphics on input line 779.
+(epstopdf)             \includegraphics on input line 785.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf, id=679, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf, id=699, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf  used on input line 779.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque3_45-eps-converted-to.pdf  used on input line 785.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45.eps>
 (epstopdf)                    date: 2021-01-05 15:34:33
@@ -1690,20 +1715,20 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic
 (epstopdf)                    date: 2021-01-28 16:57:23
 (epstopdf)                    size: 694811 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45.eps>
-(epstopdf)             \includegraphics on input line 780.
+(epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf, id=680, 4148.49875pt x 2622.79875pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf, id=700, 4148.49875pt x 2622.79875pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf  used on input line 780.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/dynamic/45deg/Torque/torque4_45-eps-converted-to.pdf  used on input line 786.
 (pdftex.def)             Requested size: 172.5pt x 109.05623pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 777--781
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 783--787
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 777--781
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 783--787
 [] [] 
  []
 
@@ -1717,12 +1742,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/
 (epstopdf)                    date: 2021-01-28 18:14:32
 (epstopdf)                    size: 404851 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90.eps>
-(epstopdf)             \includegraphics on input line 806.
+(epstopdf)             \includegraphics on input line 812.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf, id=712, 2872.7325pt x 1743.51375pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf, id=732, 2872.7325pt x 1743.51375pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf  used on input line 806.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_90-eps-converted-to.pdf  used on input line 812.
 (pdftex.def)             Requested size: 241.49895pt x 146.56056pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45.eps>
 (epstopdf)                    date: 2021-01-05 18:40:54
@@ -1731,12 +1756,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/
 (epstopdf)                    date: 2021-01-28 18:17:19
 (epstopdf)                    size: 43011 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45.eps>
-(epstopdf)             \includegraphics on input line 816.
+(epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf, id=713, 990.70125pt x 525.965pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf, id=733, 990.70125pt x 525.965pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf  used on input line 816.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_static_45-eps-converted-to.pdf  used on input line 822.
 (pdftex.def)             Requested size: 241.49895pt x 128.20847pt.
  [29
 
@@ -1748,12 +1773,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:33:55
 (epstopdf)                    size: 13815 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 833.
+(epstopdf)             \includegraphics on input line 839.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf, id=730, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf, id=750, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf  used on input line 833.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_90.svg-eps-converted-to.pdf  used on input line 839.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:51:01
@@ -1762,12 +1787,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:34:43
 (epstopdf)                    size: 14511 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 834.
+(epstopdf)             \includegraphics on input line 840.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf, id=731, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf, id=751, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf  used on input line 834.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_90.svg-eps-converted-to.pdf  used on input line 840.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:54:33
@@ -1776,12 +1801,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:35:57
 (epstopdf)                    size: 14811 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 835.
+(epstopdf)             \includegraphics on input line 841.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf, id=732, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf, id=752, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 835.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 841.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:48:29
@@ -1790,20 +1815,20 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:35:57
 (epstopdf)                    size: 15547 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 836.
+(epstopdf)             \includegraphics on input line 842.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf, id=733, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf, id=753, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 836.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 842.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 833--837
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 839--843
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 833--837
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 839--843
 [] [] 
  []
 
@@ -1817,12 +1842,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:49:39
 (epstopdf)                    size: 13713 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 854.
+(epstopdf)             \includegraphics on input line 860.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf, id=744, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf, id=764, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf  used on input line 854.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LE_45.svg-eps-converted-to.pdf  used on input line 860.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:46:27
@@ -1831,12 +1856,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:49:39
 (epstopdf)                    size: 14421 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 855.
+(epstopdf)             \includegraphics on input line 861.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf, id=745, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf, id=765, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf  used on input line 855.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LE_45.svg-eps-converted-to.pdf  used on input line 861.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:53:16
@@ -1845,12 +1870,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:49:39
 (epstopdf)                    size: 14753 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 856.
+(epstopdf)             \includegraphics on input line 862.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf, id=746, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf, id=766, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 856.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YY_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 862.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:53:48
@@ -1859,20 +1884,20 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/st
 (epstopdf)                    date: 2021-01-28 18:49:40
 (epstopdf)                    size: 15466 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 857.
+(epstopdf)             \includegraphics on input line 863.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf, id=747, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf, id=767, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 857.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/static_YZ_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 863.
 (pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 854--858
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 860--864
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 854--858
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 860--864
 [] [] 
  []
 
@@ -1886,12 +1911,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/
 (epstopdf)                    date: 2021-01-28 19:21:22
 (epstopdf)                    size: 33216 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90.eps>
-(epstopdf)             \includegraphics on input line 880.
+(epstopdf)             \includegraphics on input line 886.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf, id=759, 990.70125pt x 525.965pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf, id=779, 990.70125pt x 525.965pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf  used on input line 880.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_90-eps-converted-to.pdf  used on input line 886.
 (pdftex.def)             Requested size: 241.49895pt x 128.20847pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45.eps>
 (epstopdf)                    date: 2021-01-05 18:35:18
@@ -1900,12 +1925,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/
 (epstopdf)                    date: 2021-01-28 19:21:23
 (epstopdf)                    size: 42928 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45.eps>
-(epstopdf)             \includegraphics on input line 890.
+(epstopdf)             \includegraphics on input line 896.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf, id=760, 990.70125pt x 525.965pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf, id=780, 990.70125pt x 525.965pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf  used on input line 890.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/static/Displacement_Z/displacement_thermal_45-eps-converted-to.pdf  used on input line 896.
 (pdftex.def)             Requested size: 241.49895pt x 128.20847pt.
  [32
 
@@ -1917,12 +1942,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:32
 (epstopdf)                    size: 13799 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 911.
+(epstopdf)             \includegraphics on input line 917.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf, id=775, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf, id=795, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf  used on input line 911.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_90.svg-eps-converted-to.pdf  used on input line 917.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:45:58
@@ -1931,12 +1956,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:32
 (epstopdf)                    size: 14926 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 912.
+(epstopdf)             \includegraphics on input line 918.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf, id=776, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf, id=796, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf  used on input line 912.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_90.svg-eps-converted-to.pdf  used on input line 918.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:50:27
@@ -1945,12 +1970,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:33
 (epstopdf)                    size: 14722 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 913.
+(epstopdf)             \includegraphics on input line 919.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf, id=777, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf, id=797, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf  used on input line 913.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_90.svg-eps-converted-to.pdf  used on input line 919.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:47:41
@@ -1959,12 +1984,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:33
 (epstopdf)                    size: 14989 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 914.
+(epstopdf)             \includegraphics on input line 920.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf, id=778, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf, id=798, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 914.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 920.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:51:27
@@ -1973,12 +1998,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:33
 (epstopdf)                    size: 15963 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 915.
+(epstopdf)             \includegraphics on input line 921.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf, id=779, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf, id=799, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 915.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 921.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:47:13
@@ -1987,15 +2012,15 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:26:33
 (epstopdf)                    size: 15932 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg.eps>
-(epstopdf)             \includegraphics on input line 916.
+(epstopdf)             \includegraphics on input line 922.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf, id=780, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf, id=800, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 916.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_90.svg-eps-converted-to.pdf  used on input line 922.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--925
+Underfull \hbox (badness 10000) in paragraph at lines 929--931
 
  []
 
@@ -2009,12 +2034,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:37
 (epstopdf)                    size: 13407 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 942.
+(epstopdf)             \includegraphics on input line 948.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf, id=794, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf, id=815, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf  used on input line 942.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf  used on input line 948.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:54:55
@@ -2023,12 +2048,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:37
 (epstopdf)                    size: 14836 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 943.
+(epstopdf)             \includegraphics on input line 949.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf, id=795, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf, id=816, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf  used on input line 943.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf  used on input line 949.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:49:16
@@ -2037,12 +2062,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:37
 (epstopdf)                    size: 15935 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 944.
+(epstopdf)             \includegraphics on input line 950.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf, id=796, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf, id=817, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf  used on input line 944.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf  used on input line 950.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:48:50
@@ -2051,12 +2076,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:38
 (epstopdf)                    size: 16266 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 945.
+(epstopdf)             \includegraphics on input line 951.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf, id=797, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf, id=818, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 945.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 951.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:48:05
@@ -2065,12 +2090,12 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:38
 (epstopdf)                    size: 16551 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 946.
+(epstopdf)             \includegraphics on input line 952.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf, id=798, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf, id=819, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 946.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 952.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg.eps>
 (epstopdf)                    date: 2021-01-28 17:50:07
@@ -2079,51 +2104,168 @@ Package epstopdf Info: Source file: <MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/th
 (epstopdf)                    date: 2021-01-28 19:29:38
 (epstopdf)                    size: 17188 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg.eps>
-(epstopdf)             \includegraphics on input line 947.
+(epstopdf)             \includegraphics on input line 953.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf, id=799, 578.16pt x 433.62pt>
+<MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf, id=820, 578.16pt x 433.62pt>
 File: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 947.
+Package pdftex.def Info: MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf  used on input line 953.
 (pdftex.def)             Requested size: 103.50105pt x 77.62477pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--959
+Underfull \hbox (badness 10000) in paragraph at lines 963--965
 
  []
 
 [34
 
  </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LE_45.svg-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LE_45.svg-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LE_45.svg-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_XX_LEvsTE_45.svg-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_YY_LEvsTE_45.svg-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione3/MUL2_FEM/OUTPUT/PLOT/thermal_ZZ_LEvsTE_45.svg-eps-converted-to.pdf>]
-Overfull \hbox (36.16473pt too wide) in paragraph at lines 997--998
-[]\OT1/cmr/m/n/10 Formula di Greubler: $\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 = 6(\OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Ground\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] \OML/cmm/m/it/10 N[]$ 
+Overfull \hbox (7.39893pt too wide) in paragraph at lines 1005--1006
+[]\OT1/cmr/m/n/10 Formula di Greubler: $\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 = 6(\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 )  \OMS/cmsy/m/n/10 ^^@  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 )$ 
  []
 
 Package epstopdf Info: Source file: <MUL2/Esercitazione4/satellite_dispiegato.eps>
-(epstopdf)                    date: 2021-01-28 22:56:06
-(epstopdf)                    size: 181493 bytes
+(epstopdf)                    date: 2021-01-29 15:18:06
+(epstopdf)                    size: 231114 bytes
 (epstopdf)             Output file: <MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-28 22:58:28
-(epstopdf)                    size: 175836 bytes
+(epstopdf)                    date: 2021-01-29 15:18:08
+(epstopdf)                    size: 187228 bytes
 (epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf MUL2/Esercitazione4/satellite_dispiegato.eps>
-(epstopdf)             \includegraphics on input line 1006.
+(epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
-<MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf, id=815, 1004.75375pt x 472.76625pt>
+<MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf, id=835, 1065.9825pt x 486.81876pt>
 File: MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf Graphic file (type pdf)
 <use MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf>
-Package pdftex.def Info: MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf  used on input line 1006.
-(pdftex.def)             Requested size: 327.74895pt x 154.20988pt.
+Package pdftex.def Info: MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf  used on input line 1013.
+(pdftex.def)             Requested size: 293.2521pt x 133.92384pt.
 [35
 
- </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf>] [36
+ </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/satellite_dispiegato-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/analisi_cinematica_ang_velocity.eps>
+(epstopdf)                    date: 2021-01-29 16:54:20
+(epstopdf)                    size: 91149 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 16:58:01
+(epstopdf)                    size: 60734 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf MUL2/Esercitazione4/analisi_cinematica_ang_velocity.eps>
+(epstopdf)             \includegraphics on input line 1029.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf, id=844, 1235.61626pt x 424.58624pt>
+File: MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf  used on input line 1029.
+(pdftex.def)             Requested size: 345.0pt x 118.54645pt.
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/analisi_cinematica_angle.eps>
+(epstopdf)                    date: 2021-01-29 17:17:20
+(epstopdf)                    size: 86455 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 17:22:00
+(epstopdf)                    size: 58989 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf MUL2/Esercitazione4/analisi_cinematica_angle.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf, id=845, 1235.61626pt x 424.58624pt>
+File: MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf  used on input line 1039.
+(pdftex.def)             Requested size: 345.0pt x 118.54645pt.
+ [36
+
+ </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/analisi_cinematica_ang_velocity-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/analisi_cinematica_angle-eps-converted-to.pdf>]
+Overfull \hbox (16.2576pt too wide) in paragraph at lines 1078--1080
+\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 = (6\OML/cmm/m/it/10 N[]  \OT1/cmr/m/n/10 +  [](\OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 ))  \OMS/cmsy/m/n/10 ^^@  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 )$ 
+ []
+
+[37
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1015.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1015.
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1121
+
+ []
+
+[38
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1153
+
+ []
+
+[39]
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/dinamica_confronto_pannelli.eps>
+(epstopdf)                    date: 2021-01-29 20:50:13
+(epstopdf)                    size: 117755 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 20:50:15
+(epstopdf)                    size: 67406 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf MUL2/Esercitazione4/dinamica_confronto_pannelli.eps>
+(epstopdf)             \includegraphics on input line 1189.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf, id=890, 1235.61626pt x 391.4625pt>
+File: MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf  used on input line 1189.
+(pdftex.def)             Requested size: 310.4979pt x 98.36713pt.
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/dinamica_confronto_leva_carrozza.eps>
+(epstopdf)                    date: 2021-01-29 20:47:45
+(epstopdf)                    size: 104151 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 20:47:47
+(epstopdf)                    size: 62798 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf MUL2/Esercitazione4/dinamica_confronto_leva_carrozza.eps>
+(epstopdf)             \includegraphics on input line 1196.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf, id=891, 1235.61626pt x 391.4625pt>
+File: MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf  used on input line 1196.
+(pdftex.def)             Requested size: 310.4979pt x 98.36713pt.
+Package epstopdf Info: Source file: <MUL2/Esercitazione4/dinamica_confronto_pint_leva.eps>
+(epstopdf)                    date: 2021-01-29 19:58:12
+(epstopdf)                    size: 111361 bytes
+(epstopdf)             Output file: <MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-29 20:43:25
+(epstopdf)                    size: 65431 bytes
+(epstopdf)             Command: <repstopdf --outfile=MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf MUL2/Esercitazione4/dinamica_confronto_pint_leva.eps>
+(epstopdf)             \includegraphics on input line 1203.
+Package epstopdf Info: Output file is already uptodate.
+<MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf, id=892, 1235.61626pt x 433.62pt>
+File: MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf Graphic file (type pdf)
+<use MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf>
+Package pdftex.def Info: MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf  used on input line 1203.
+(pdftex.def)             Requested size: 310.4979pt x 108.96051pt.
+ [40
+
+ </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/dinamica_confronto_pannelli-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/dinamica_confronto_leva_carrozza-eps-converted-to.pdf> </home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/MUL2/Esercitazione4/dinamica_confronto_pint_leva-eps-converted-to.pdf>]
+Overfull \hbox (16.2576pt too wide) in paragraph at lines 1233--1235
+\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 = (6\OML/cmm/m/it/10 N[]  \OT1/cmr/m/n/10 +  [](\OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 ))  \OMS/cmsy/m/n/10 ^^@  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 )$ 
+ []
+
+[41
+
+] [42
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1242.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1242.
  (/home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1015.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1015.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1242.
 Package rerunfilecheck Info: File `Esercitazioni.out' has not changed.
-(rerunfilecheck)             Checksum: BEA2E783D7903B43EB510C94B50DB6F6;2490.
+(rerunfilecheck)             Checksum: 85946BF6BC64C4ED75867C465EA9E91E;2803.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2133,18 +2275,18 @@ Package logreq Info: Writing requests to 'Esercitazioni.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38090 strings out of 480906
- 917980 string characters out of 5910771
- 1601406 words of memory out of 5000000
- 52863 multiletter control sequences out of 15000+600000
- 544280 words of font info for 63 fonts, out of 8000000 for 9000
+ 39769 strings out of 480906
+ 941747 string characters out of 5910771
+ 1638494 words of memory out of 5000000
+ 54485 multiletter control sequences out of 15000+600000
+ 544746 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,98p,888b,1797s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (36 pages, 19031685 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/giorgio/Esercitazioni_Strutture_per_veicoli_aerospaziali/Esercitazioni.pdf (42 pages, 19371311 bytes).
 PDF statistics:
- 931 PDF objects out of 1000 (max. 8388607)
- 664 compressed objects within 7 object streams
- 172 named destinations out of 1000 (max. 500000)
- 617 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1033 PDF objects out of 1200 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 674 words of extra memory for PDF output out of 10000 (max. 10000000)
 

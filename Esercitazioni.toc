@@ -32,3 +32,7 @@
 \contentsline {subsubsection}{\numberline {3.6.1}Laminazione a 90 gradi}{33}{subsubsection.3.6.1}%
 \contentsline {subsubsection}{\numberline {3.6.2}Laminazione a 45 gradi}{34}{subsubsection.3.6.2}%
 \contentsline {section}{\numberline {4}Esercitazione 4}{35}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analisi cinematica}{35}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analisi dinamica}{37}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Analisi con pannelli rigidi}{37}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Analisi con pannelli flessibili }{41}{subsubsection.4.2.2}%

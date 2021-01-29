@@ -1,11 +1,11 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {section}{\numberline {1}Esercitazione 1}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Esercizio 1}{5}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}DATI}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Dati}{5}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}File di input}{6}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}RISULTATI}{7}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3}Risultati}{7}{subsubsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.2}Esercizio 2}{10}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}RISULTATI}{11}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Risultati}{11}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Riflessioni}{14}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Esercitazione 2}{16}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Dati}{16}{subsection.2.1}%

@@ -121,7 +121,7 @@ breaklines=true
             \includegraphics[width=0.5\textwidth]{ES1_Esercizio1.eps}
             \caption{Esercizio 1 (Disegnato con \textit{Inkscape} \autocite{Inkscape})}
         \end{figure}
-        \subsubsection{DATI}
+        \subsubsection{Dati}
         \begin{itemize}
             \item $\displaystyle T_0 = -49.85\,°C;$ \
             \item $\displaystyle T_{c0} = 23\,°C;$ \
@@ -147,7 +147,7 @@ breaklines=true
         \subsubsection{File di input}
 
         Il file di input viene modificato rispetto all'esempio, 
-        inserendo ovviamente i dati forniti dal problema e rispettando la leggenda
+        inserendo ovviamente i dati forniti dal problema e rispettando la legenda
         dello script.\\ 
         In particolare, la matrice delle aree effettive, ossia le singole aree fisiche che separano le camere, moltiplicate
         per i rispettivi coefficienti di efflusso, risulta: \\
@@ -190,7 +190,7 @@ breaklines=true
         \end{center}    
         \clearpage
 
-        \subsubsection{RISULTATI}
+        \subsubsection{Risultati}
         Sono di seguito plottati gli andamenti delle pressioni e del 
         gradiente di pressione tra le camere 1 e 2, nel dominio del tempo. \\ 
         I plot sono ordinati a due a due per $\ CD_{1-2} = [0, 0.5, 1];$ \
@@ -283,7 +283,7 @@ breaklines=true
             \end{bmatrix}\]
         \clearpage
 
-        \subsection{RISULTATI\label{Esercizio2_risultati}}
+        \subsection{Risultati\label{Esercizio2_risultati}}
         Anche in questo caso, sempre tramite lo script in Fortran fornito a lezione, 
         vengono calcolate le pressioni nel tempo e il gradiente di pressione $\Delta p$ agente sulle pareti
         del satellite, plottando poi il tutto con \textit{gnuplot}.\\ 
@@ -440,7 +440,7 @@ breaklines=true
 
             \begin{equation}
                 \phantomsection \label{equation:sist_omogeneo}
-                M\ddot{x} + Kx(t) = 0
+                M\ddot{x}(t) + Kx(t) = 0
             \end{equation}
         dove M e K sono rispettivamente le matrici delle masse concentrate e di rigidezza, cosí definite:
         \begin{center}  
@@ -755,7 +755,7 @@ breaklines=true
             \label{tab:freq_nat_45}
             \end{table}
         
-        Come fatto prima si visualizzano le deformazioni con \textit{Paraview} \autocite{Paraview}. 
+        Come in precedenza, si visualizzano le deformazioni con \textit{Paraview} \autocite{Paraview}. 
 
         \clearpage
 
@@ -773,7 +773,7 @@ breaklines=true
         Le considerazioni in merito alle semionde fatte per il caso a 90 gradi valgono anche cambiando la laminazione.
 
         Si puó peró notare che gli effetti della laminazione a 45 gradi tendono a far ripiegare la piastra
-        su sé stessa, lungo l'asse longitudinale e l'effetto diventa man mano piú visibile con l'aumentare del grado di 
+        su se stessa, lungo l'asse longitudinale e l'effetto diventa man mano piú visibile con l'aumentare del grado di 
         frequenza propria.
 
         \clearpage
@@ -787,7 +787,7 @@ breaklines=true
             \caption{Modi propri di vibrare torsionali, laminazione a $45^\circ$}
         \end{figure}
 
-        Quanto detto per la laminazione a 90 gradi rimane valido e, come giá messo in evidenza poc'anzi, 
+        Quanto detto per la laminazione a 90 gradi rimane valido e, come messo in evidenza poc'anzi, 
         la laminazione a 45 gradi causa un crescente ripiegamento lungo l'asse longitudinale, tuttavia piú visibile
         nei gradi flessionali.
 
@@ -875,7 +875,7 @@ breaklines=true
 
             \subsection{Analisi Termica: displacement massimo \label{displacement_massimo_thermal}}
 
-            Si procede con un'analisi termica, con la stessa procedura vista per l'analisi statica. Tuttavia,
+            Si effettua ora un'analisi termica, con la stessa procedura vista per l'analisi statica. Tuttavia,
             si utilizza questa volta un carico termico pari a $120 \ _{}^{\circ}\textrm{C}$. 
 
             \subsubsection{Laminazione a 90 gradi \label{displacement_massimo_90_thermal}}
@@ -1177,7 +1177,7 @@ breaklines=true
         \clearpage
 
         In conclusione, l'introduzione di un sistema di controllo dinamico accuratamente dimensionato 
-        ha nettamente smorzato tutte le sollecitazioni dovute alle reazioni elastiche delle molle, inziialmente
+        ha nettamente smorzato tutte le sollecitazioni dovute alle reazioni elastiche delle molle, inizialmente
         preponderanti e compromettenti il successo dell'intera missione di dispiegamento. 
 
         Di seguito, si confrontano gli andamenti dei vari moti di rilievo, nei tre casi studiati.
@@ -1217,8 +1217,8 @@ breaklines=true
                 \item Riferimento (Ground) 
                 \item Corpo del satellite in alluminio, rigido
                 \item Leva (Yoke) in acciaio, rigida
-                \item Inner Panel in alluminio, rigido
-                \item Outer Panel in alluminio, rigido
+                \item Inner Panel in alluminio, flessibile
+                \item Outer Panel in alluminio, flessibile
             \end{itemize}
             \item Giunti (4):
             \begin{itemize}
